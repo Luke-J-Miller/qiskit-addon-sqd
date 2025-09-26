@@ -1,0 +1,88 @@
+         101757018 function calls (101757014 primitive calls) in 647.433 seconds
+
+   Ordered by: cumulative time
+   List reduced from 349 to 80 due to restriction <80>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        3    0.009    0.003  647.450  215.817 base_events.py:1922(_run_once)
+        3    0.490    0.163  647.438  215.813 selectors.py:451(select)
+      645  383.249    0.594  647.312    1.004 {built-in method time.sleep}
+        1    0.003    0.003  646.943  646.943 ipython-input-3795278461.py:92(work_fn)
+        1    0.037    0.037  646.940  646.940 fermion.py:149(diagonalize_fermionic_hamiltonian)
+        5    0.000    0.000  448.875   89.775 fermion.py:435(solve_sci_batch)
+       15    0.002    0.000  448.875   29.925 fermion.py:476(solve_sci)
+       15    0.002    0.000  317.966   21.198 selected_ci.py:313(kernel_fixed_space)
+       15    0.055    0.004  317.490   21.166 direct_spin1.py:920(eig)
+       15    0.482    0.032  317.434   21.162 linalg_helper.py:291(davidson1)
+      109    0.001    0.000  314.206    2.883 direct_spin1.py:926(<lambda>)
+      109    0.003    0.000  314.205    2.883 selected_ci.py:346(hop)
+      109    0.006    0.000  314.198    2.883 selected_ci.py:758(contract_2e)
+   400000   87.782    0.000  181.408    0.000 configuration_recovery.py:181(_bipartite_bitstring_correcting)
+       15    0.000    0.000  130.050    8.670 selected_ci.py:830(make_rdm2)
+       15    0.048    0.003  130.050    8.670 selected_ci.py:568(make_rdm2)
+      109   50.483    0.463   50.493    0.463 selected_ci.py:48(contract_2e)
+  1573491    3.791    0.000   30.463    0.000 _arraysetops_impl.py:144(unique)
+  1573491   17.064    0.000   25.043    0.000 _arraysetops_impl.py:342(_unique1d)
+  3181038    7.377    0.000   21.648    0.000 fromnumeric.py:69(_wrapreduction)
+  2390521    3.978    0.000   18.625    0.000 fromnumeric.py:2255(sum)
+  3181241   11.815    0.000   11.815    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+  1573428    1.921    0.000   10.281    0.000 fromnumeric.py:2609(cumsum)
+  7963844    4.886    0.000    9.384    0.000 configuration_recovery.py:162(_p_flip_1_to_0)
+   400004    4.218    0.000    9.095    0.000 {method 'join' of 'str' objects}
+   790517    1.269    0.000    8.937    0.000 fromnumeric.py:3068(prod)
+ 18400000    8.686    0.000    8.686    0.000 configuration_recovery.py:131(_p_flip_0_to_1)
+  1573707    1.732    0.000    8.441    0.000 fromnumeric.py:51(_wrapfunc)
+       15    6.886    0.459    6.886    0.459 rdm.py:123(make_rdm12_spin1)
+       15    6.327    0.422    6.347    0.423 selected_ci.py:519(make_rdm2s)
+  1573428    6.162    0.000    6.162    0.000 {method 'cumsum' of 'numpy.ndarray' objects}
+ 18800000    4.877    0.000    4.877    0.000 configuration_recovery.py:122(<genexpr>)
+   790516    1.820    0.000    4.278    0.000 numerictypes.py:470(issubdtype)
+  1573473    3.728    0.000    3.728    0.000 {method 'argsort' of 'numpy.ndarray' objects}
+  1573870    2.389    0.000    2.389    0.000 {built-in method numpy.empty}
+  1581032    1.285    0.000    2.317    0.000 numerictypes.py:288(issubclass_)
+   790504    2.202    0.000    2.202    0.000 {built-in method builtins.round}
+  2365494    2.013    0.000    2.013    0.000 {built-in method builtins.getattr}
+        4    1.312    0.328    2.009    0.502 configuration_recovery.py:59(recover_configurations)
+  1573495    1.686    0.000    1.686    0.000 {method 'flatten' of 'numpy.ndarray' objects}
+      264    1.642    0.006    1.642    0.006 {built-in method numpy.array}
+  1581032    0.990    0.000    1.629    0.000 getlimits.py:487(__new__)
+  1573491    0.832    0.000    1.263    0.000 _arraysetops_impl.py:131(_unpack_tuple)
+  2371704    1.173    0.000    1.173    0.000 {built-in method builtins.issubclass}
+      218    0.872    0.004    1.063    0.005 linalg_helper.py:1432(_outprod_to_subspace)
+  3181132    0.917    0.000    0.917    0.000 {method 'items' of 'dict' objects}
+   790516    0.494    0.000    0.855    0.000 numeric.py:460(count_nonzero)
+       30    0.000    0.000    0.842    0.028 selected_ci.py:812(make_rdm1s)
+       30    0.001    0.000    0.841    0.028 selected_ci.py:484(make_rdm1s)
+      109    0.724    0.007    0.730    0.007 linalg_helper.py:166(_fill_heff_hermitian)
+       97    0.680    0.007    0.684    0.007 linalg_helper.py:1490(_normalize_xt_)
+2391640/2391636    0.670    0.000    0.675    0.000 {built-in method builtins.isinstance}
+  1581158    0.640    0.000    0.640    0.000 {method 'get' of 'dict' objects}
+   800612    0.638    0.000    0.638    0.000 {built-in method numpy.zeros}
+  3147043    0.625    0.000    0.625    0.000 {built-in method numpy.asanyarray}
+       60    0.622    0.010    0.625    0.010 rdm.py:91(make_rdm1_spin1)
+      233    0.586    0.003    0.591    0.003 numpy_helper.py:574(transpose)
+   400015    0.513    0.000    0.513    0.000 {method 'copy' of 'numpy.ndarray' objects}
+  2390521    0.491    0.000    0.491    0.000 fromnumeric.py:2250(_sum_dispatcher)
+       93    0.472    0.005    0.472    0.005 {method 'sort' of 'numpy.ndarray' objects}
+  1575184    0.432    0.000    0.432    0.000 {built-in method builtins.len}
+       15    0.000    0.000    0.417    0.028 selected_ci.py:818(make_rdm1)
+  1573428    0.381    0.000    0.381    0.000 fromnumeric.py:2605(_cumsum_dispatcher)
+   790516    0.360    0.000    0.360    0.000 {built-in method numpy._core._multiarray_umath.count_nonzero}
+  1573491    0.350    0.000    0.350    0.000 _arraysetops_impl.py:139(_unique_dispatcher)
+      120    0.258    0.002    0.274    0.002 selected_ci.py:175(cre_des_linkstr)
+      109    0.253    0.002    0.260    0.002 numpy_helper.py:478(take_2d)
+       60    0.203    0.003    0.258    0.004 selected_ci.py:194(des_des_linkstr)
+       15    0.228    0.015    0.236    0.016 selected_ci.py:289(make_hdiag)
+   790517    0.219    0.000    0.219    0.000 fromnumeric.py:3063(_prod_dispatcher)
+   790534    0.214    0.000    0.214    0.000 multiarray.py:361(where)
+      402    0.002    0.000    0.213    0.001 einsumfunc.py:1057(einsum)
+      402    0.211    0.001    0.211    0.001 {built-in method numpy._core._multiarray_umath.c_einsum}
+   790516    0.177    0.000    0.177    0.000 numeric.py:456(_count_nonzero_dispatcher)
+       15    0.000    0.000    0.168    0.011 selected_ci.py:903(_all_linkstr_index)
+       94    0.134    0.001    0.134    0.001 selected_ci.py:350(<lambda>)
+       30    0.000    0.000    0.110    0.004 selected_ci.py:230(des_des_linkstr_tril)
+       25    0.000    0.000    0.064    0.003 fromnumeric.py:1085(argsort)
+       30    0.000    0.000    0.058    0.002 selected_ci.py:189(cre_des_linkstr_tril)
+       15    0.043    0.003    0.052    0.003 linalg_helper.py:1409(_qr)
+
+

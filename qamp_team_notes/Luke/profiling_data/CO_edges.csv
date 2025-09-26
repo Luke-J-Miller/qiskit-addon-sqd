@@ -1,0 +1,722 @@
+caller_file,caller_line,caller_func,callee_file,callee_line,callee_func,calls,edge_tottime_approx,edge_cumtime_approx,callee_tottime_total,callee_cumtime_total
+_ufunc_config.py,410,__enter__,~,0,<method 'set' of '_contextvars.ContextVar' objects>,15,5.3919e-05,5.3919e-05,5.5821000000000006e-05,5.5821000000000006e-05
+_ufunc_config.py,434,inner,~,0,<method 'set' of '_contextvars.ContextVar' objects>,1,1.9020000000000002e-06,1.9020000000000002e-06,5.5821000000000006e-05,5.5821000000000006e-05
+_ufunc_config.py,434,inner,~,0,<method 'reset' of '_contextvars.ContextVar' objects>,1,1.283e-06,1.283e-06,3.5571e-05,3.5571e-05
+_ufunc_config.py,426,__exit__,~,0,<method 'reset' of '_contextvars.ContextVar' objects>,15,3.4288e-05,3.4288e-05,3.5571e-05,3.5571e-05
+events.py,86,_run,~,0,<method 'run' of '_contextvars.Context' objects>,3,1.4909e-05,0.0024975600000000002,1.4909e-05,0.0024975600000000002
+misc.py,677,check_sanity,~,0,<method 'union' of 'set' objects>,15,0.00020332800000000002,0.00020332800000000002,0.00020332800000000002,0.00020332800000000002
+session.py,687,serialize,~,0,<method 'get' of 'dict' objects>,1,5.3e-07,5.3e-07,0.635285008,0.635285008
+getlimits.py,487,__new__,~,0,<method 'get' of 'dict' objects>,1589240,0.6347899760000001,0.6347899760000001,0.635285008,0.635285008
+ipython-input-3795278461.py,92,work_fn,~,0,<method 'get' of 'dict' objects>,1,8.19e-07,8.19e-07,0.635285008,0.635285008
+blas.py,395,getter,~,0,<method 'get' of 'dict' objects>,90,0.00047662800000000005,0.00047662800000000005,0.635285008,0.635285008
+_linalg.py,142,_realType,~,0,<method 'get' of 'dict' objects>,15,1.7055000000000002e-05,1.7055000000000002e-05,0.635285008,0.635285008
+fromnumeric.py,69,_wrapreduction,~,0,<method 'items' of 'dict' objects>,3189246,0.891000757,0.891000757,0.8910549050000001,0.8910549050000001
+fromnumeric.py,89,_wrapreduction_any_all,~,0,<method 'items' of 'dict' objects>,75,5.4148000000000004e-05,5.4148000000000004e-05,0.8910549050000001,0.8910549050000001
+~,0,<built-in method time.sleep>,~,0,<method 'values' of 'dict' objects>,3,8.893000000000001e-06,8.893000000000001e-06,1.2969e-05,1.2969e-05
+configuration_recovery.py,59,recover_configurations,~,0,<method 'values' of 'dict' objects>,1,4.0760000000000004e-06,4.0760000000000004e-06,1.2969e-05,1.2969e-05
+_decomp.py,284,eigh,~,0,<method 'update' of 'dict' objects>,90,0.000129073,0.000129073,0.000129073,0.000129073
+session.py,646,msg,~,0,<method 'copy' of 'dict' objects>,1,6.08e-07,6.08e-07,6.08e-07,6.08e-07
+~,0,<built-in method time.sleep>,~,0,<method 'append' of 'list' objects>,6,3.894e-06,3.894e-06,0.00044000500000000004,0.00044000500000000004
+selectors.py,451,select,~,0,<method 'append' of 'list' objects>,1,4.870000000000001e-07,4.870000000000001e-07,0.00044000500000000004,0.00044000500000000004
+session.py,687,serialize,~,0,<method 'append' of 'list' objects>,3,8.960000000000001e-07,8.960000000000001e-07,0.00044000500000000004,0.00044000500000000004
+_internal.py,448,_promote_fields,~,0,<method 'append' of 'list' objects>,52,1.2942e-05,1.2942e-05,0.00044000500000000004,0.00044000500000000004
+_function_base_impl.py,1324,diff,~,0,<method 'append' of 'list' objects>,31,1.2315000000000002e-05,1.2315000000000002e-05,0.00044000500000000004,0.00044000500000000004
+linalg_helper.py,1490,_normalize_xt_,~,0,<method 'append' of 'list' objects>,75,0.000153138,0.000153138,0.00044000500000000004,0.00044000500000000004
+linalg_helper.py,291,davidson1,~,0,<method 'append' of 'list' objects>,174,0.00010629,0.00010629,0.00044000500000000004,0.00044000500000000004
+_util.py,1203,wrapper,~,0,<method 'append' of 'list' objects>,180,0.000121341,0.000121341,0.00044000500000000004,0.00044000500000000004
+direct_spin1.py,549,_get_init_guess,~,0,<method 'append' of 'list' objects>,15,1.3882e-05,1.3882e-05,0.00044000500000000004,0.00044000500000000004
+subsampling.py,147,subsample,~,0,<method 'append' of 'list' objects>,15,8.924000000000001e-06,8.924000000000001e-06,0.00044000500000000004,0.00044000500000000004
+fermion.py,149,diagonalize_fermionic_hamiltonian,~,0,<method 'append' of 'list' objects>,15,4.5670000000000005e-06,4.5670000000000005e-06,0.00044000500000000004,0.00044000500000000004
+numeric.py,1437,moveaxis,~,0,<method 'insert' of 'list' objects>,2,2.094e-06,2.094e-06,2.094e-06,2.094e-06
+session.py,687,serialize,~,0,<method 'extend' of 'list' objects>,1,5.250000000000001e-07,5.250000000000001e-07,8.18e-07,8.18e-07
+session.py,751,send,~,0,<method 'extend' of 'list' objects>,1,2.9300000000000004e-07,2.9300000000000004e-07,8.18e-07,8.18e-07
+session.py,97,json_packer,~,0,<method 'encode' of 'str' objects>,4,4.288e-06,4.288e-06,4.288e-06,4.288e-06
+jsonutil.py,108,json_default,~,0,<method 'replace' of 'str' objects>,2,2.2580000000000002e-06,2.2580000000000002e-06,2.2580000000000002e-06,2.2580000000000002e-06
+configuration_recovery.py,59,recover_configurations,~,0,<method 'join' of 'str' objects>,400000,4.526474018,9.707587903,4.52648197,9.707595855000001
+encoder.py,183,encode,~,0,<method 'join' of 'str' objects>,4,7.952000000000001e-06,7.952000000000001e-06,4.52648197,9.707595855000001
+attrsettr.py,43,__getattr__,~,0,<method 'upper' of 'str' objects>,4,3.4080000000000002e-06,3.4080000000000002e-06,3.4080000000000002e-06,3.4080000000000002e-06
+misc.py,702,check_sanity,~,0,<method 'startswith' of 'str' objects>,195,7.9824e-05,7.9824e-05,7.9824e-05,7.9824e-05
+_arraysetops_impl.py,144,unique,~,0,<method 'format' of 'str' objects>,52,3.3255e-05,3.3255e-05,3.3255e-05,3.3255e-05
+~,0,<built-in method builtins.issubclass>,<frozen abc>,121,__subclasscheck__,2,4.33e-06,1.106e-05,4.33e-06,1.106e-05
+~,0,<built-in method builtins.isinstance>,<frozen abc>,117,__instancecheck__,90,0.000193746,0.000700063,0.00019643900000000002,0.0007057490000000001
+fermion.py,149,diagonalize_fermionic_hamiltonian,<frozen abc>,117,__instancecheck__,1,2.6930000000000003e-06,5.686e-06,0.00019643900000000002,0.0007057490000000001
+attrsettr.py,43,__getattr__,<frozen importlib._bootstrap>,1390,_handle_fromlist,4,1.2453000000000001e-05,1.7652e-05,1.2453000000000001e-05,1.7652e-05
+~,0,<built-in method time.sleep>,~,0,<built-in method builtins.abs>,8,2.5359000000000002e-05,2.5359000000000002e-05,0.005186154,0.005186154
+linalg_helper.py,1466,_sort_elast,~,0,<built-in method builtins.abs>,75,0.004596712,0.004596712,0.005186154,0.005186154
+linalg_helper.py,291,davidson1,~,0,<built-in method builtins.abs>,172,0.0005577290000000001,0.0005577290000000001,0.005186154,0.005186154
+fermion.py,149,diagonalize_fermionic_hamiltonian,~,0,<built-in method builtins.abs>,4,6.3540000000000005e-06,6.3540000000000005e-06,0.005186154,0.005186154
+~,0,<built-in method time.sleep>,~,0,<built-in method builtins.all>,4,7.75e-06,7.75e-06,0.000150974,0.000150974
+linalg_helper.py,291,davidson1,~,0,<built-in method builtins.all>,86,0.000143224,0.000143224,0.000150974,0.000150974
+_stride_tricks_impl.py,349,_broadcast_to,~,0,<built-in method builtins.any>,180,0.000389781,0.000892724,0.000515611,0.001018554
+_util.py,1203,wrapper,~,0,<built-in method builtins.any>,90,0.00012583,0.00012583,0.000515611,0.001018554
+~,0,<built-in method time.sleep>,~,0,<built-in method builtins.callable>,6,4.245e-06,4.245e-06,0.000133506,0.000133506
+linalg_helper.py,291,davidson1,~,0,<built-in method builtins.callable>,189,0.000129261,0.000129261,0.000133506,0.000133506
+attrsettr.py,43,__getattr__,~,0,<built-in method builtins.getattr>,4,8.537e-06,8.537e-06,2.062112322,2.062112322
+fromnumeric.py,69,_wrapreduction,~,0,<built-in method builtins.getattr>,794621,1.5521332630000002,1.5521332630000002,2.062112322,2.062112322
+addons.py,190,_convert,~,0,<built-in method builtins.getattr>,120,0.0008056840000000001,0.0008056840000000001,2.062112322,2.062112322
+rdm.py,123,make_rdm12_spin1,~,0,<built-in method builtins.getattr>,15,1.9562e-05,1.9562e-05,2.062112322,2.062112322
+rdm.py,91,make_rdm1_spin1,~,0,<built-in method builtins.getattr>,60,0.00011960700000000001,0.00011960700000000001,2.062112322,2.062112322
+selected_ci.py,758,contract_2e,~,0,<built-in method builtins.getattr>,90,3.7311e-05,3.7311e-05,2.062112322,2.062112322
+selected_ci.py,931,_as_SCIvector_if_not,~,0,<built-in method builtins.getattr>,45,4.9212e-05,4.9212e-05,2.062112322,2.062112322
+selected_ci.py,893,_unpack,~,0,<built-in method builtins.getattr>,165,6.4619e-05,6.4619e-05,2.062112322,2.062112322
+selected_ci.py,914,__array_finalize__,~,0,<built-in method builtins.getattr>,405,0.000411044,0.000411044,2.062112322,2.062112322
+lapack.py,1025,_compute_lwork,~,0,<built-in method builtins.getattr>,180,0.000422702,0.000422702,2.062112322,2.062112322
+_linalg.py,123,_makearray,~,0,<built-in method builtins.getattr>,15,1.3043e-05,1.3043e-05,2.062112322,2.062112322
+fromnumeric.py,51,_wrapfunc,~,0,<built-in method builtins.getattr>,1558128,0.508027738,0.508027738,2.062112322,2.062112322
+<frozen importlib._bootstrap>,1390,_handle_fromlist,~,0,<built-in method builtins.hasattr>,4,4.257e-06,4.257e-06,8.3262e-05,8.3262e-05
+traitlets.py,740,_cross_validate,~,0,<built-in method builtins.hasattr>,1,2.9970000000000003e-06,2.9970000000000003e-06,8.3262e-05,8.3262e-05
+_function_base_impl.py,249,flip,~,0,<built-in method builtins.hasattr>,4,2.3770000000000003e-06,2.3770000000000003e-06,8.3262e-05,8.3262e-05
+misc.py,677,check_sanity,~,0,<built-in method builtins.hasattr>,60,7.279400000000001e-05,7.279400000000001e-05,8.3262e-05,8.3262e-05
+traitlets.py,731,_validate,~,0,<built-in method builtins.hasattr>,1,8.370000000000001e-07,8.370000000000001e-07,8.3262e-05,8.3262e-05
+typing.py,1285,__hash__,~,0,<built-in method builtins.hash>,4,2.1450000000000002e-06,2.1450000000000002e-06,2.1450000000000002e-06,2.1450000000000002e-06
+<frozen importlib._bootstrap>,1390,_handle_fromlist,~,0,<built-in method builtins.isinstance>,4,9.42e-07,9.42e-07,0.680468115,0.681202152
+socket.py,709,send_multipart,~,0,<built-in method builtins.isinstance>,7,1.193e-06,1.193e-06,0.680468115,0.681202152
+session.py,687,serialize,~,0,<built-in method builtins.isinstance>,2,1.133e-06,1.133e-06,0.680468115,0.681202152
+session.py,751,send,~,0,<built-in method builtins.isinstance>,3,2.342e-06,2.342e-06,0.680468115,0.681202152
+jsonutil.py,108,json_default,~,0,<built-in method builtins.isinstance>,2,2.82e-07,2.82e-07,0.680468115,0.681202152
+linalg_helper.py,291,davidson1,~,0,<built-in method builtins.isinstance>,30,1.1936e-05,1.1936e-05,0.680468115,0.681202152
+_decomp.py,284,eigh,~,0,<built-in method builtins.isinstance>,90,3.3109000000000004e-05,3.3109000000000004e-05,0.680468115,0.681202152
+direct_spin1.py,178,absorb_h1e,~,0,<built-in method builtins.isinstance>,15,4.643e-06,4.643e-06,0.680468115,0.681202152
+selected_ci.py,313,kernel_fixed_space,~,0,<built-in method builtins.isinstance>,15,4.6706e-05,4.6706e-05,0.680468115,0.681202152
+bit_array.py,67,__init__,~,0,<built-in method builtins.isinstance>,1,2.63e-07,2.63e-07,0.680468115,0.681202152
+addons.py,822,_unpack_nelec,~,0,<built-in method builtins.isinstance>,255,0.00032925200000000004,0.00032925200000000004,0.680468115,0.681202152
+addons.py,206,_stand_sym_code,~,0,<built-in method builtins.isinstance>,240,0.00017140000000000002,0.00017140000000000002,0.680468115,0.681202152
+direct_spin1.py,920,eig,~,0,<built-in method builtins.isinstance>,15,2.0212000000000002e-05,2.0212000000000002e-05,0.680468115,0.681202152
+_sparse.py,10,issparse,~,0,<built-in method builtins.isinstance>,90,0.0004987020000000001,0.001198765,0.680468115,0.681202152
+logger.py,219,new_logger,~,0,<built-in method builtins.isinstance>,30,2.7665e-05,2.7665e-05,0.680468115,0.681202152
+core.py,6607,isMaskedArray,~,0,<built-in method builtins.isinstance>,90,4.3019e-05,4.3019e-05,0.680468115,0.681202152
+fromnumeric.py,2255,sum,~,0,<built-in method builtins.isinstance>,2394625,0.679207016,0.679207016,0.680468115,0.681202152
+fromnumeric.py,1639,diagonal,~,0,<built-in method builtins.isinstance>,30,3.082e-05,3.082e-05,0.680468115,0.681202152
+zmqstream.py,547,_run_callback,~,0,<built-in method builtins.isinstance>,2,8.442e-06,4.5196000000000006e-05,0.680468115,0.681202152
+session.py,280,extract_header,~,0,<built-in method builtins.isinstance>,1,1.7400000000000002e-07,1.7400000000000002e-07,0.680468115,0.681202152
+traitlets.py,2373,validate,~,0,<built-in method builtins.isinstance>,1,5.09e-07,5.09e-07,0.680468115,0.681202152
+encoder.py,183,encode,~,0,<built-in method builtins.isinstance>,8,2.854e-06,2.854e-06,0.680468115,0.681202152
+typing.py,1492,__subclasscheck__,~,0,<built-in method builtins.isinstance>,4,2.78e-06,2.78e-06,0.680468115,0.681202152
+enum.py,1543,_get_value,~,0,<built-in method builtins.isinstance>,70,2.2721e-05,2.2721e-05,0.680468115,0.681202152
+_linalg.py,148,_commonType,~,0,<built-in method builtins.issubclass>,15,1.1143e-05,1.1143e-05,1.162618133,1.1626291930000001
+_type_check_impl.py,265,iscomplexobj,~,0,<built-in method builtins.issubclass>,90,5.5258000000000005e-05,5.5258000000000005e-05,1.162618133,1.1626291930000001
+_linalg.py,128,isComplexType,~,0,<built-in method builtins.issubclass>,30,8.506000000000001e-06,8.506000000000001e-06,1.162618133,1.1626291930000001
+numerictypes.py,288,issubclass_,~,0,<built-in method builtins.issubclass>,1589240,1.01977376,1.01977376,1.162618133,1.1626291930000001
+numerictypes.py,470,issubdtype,~,0,<built-in method builtins.issubclass>,794620,0.142762514,0.142762514,1.162618133,1.1626291930000001
+typing.py,1492,__subclasscheck__,~,0,<built-in method builtins.issubclass>,2,6.9520000000000005e-06,1.8012e-05,1.162618133,1.1626291930000001
+_function_base_impl.py,343,iterable,~,0,<built-in method builtins.iter>,180,0.00011458800000000001,0.00011458800000000001,0.00011458800000000001,0.00011458800000000001
+~,0,<built-in method time.sleep>,~,0,<built-in method builtins.len>,12,1.0778e-05,1.0778e-05,0.43671450300000003,0.43671450300000003
+selectors.py,451,select,~,0,<built-in method builtins.len>,3,1.003e-06,1.003e-06,0.43671450300000003,0.43671450300000003
+base_events.py,1922,_run_once,~,0,<built-in method builtins.len>,4,1.45e-06,1.45e-06,0.43671450300000003,0.43671450300000003
+session.py,751,send,~,0,<built-in method builtins.len>,7,1.326e-06,1.326e-06,0.43671450300000003,0.43671450300000003
+numeric.py,1373,normalize_axis_tuple,~,0,<built-in method builtins.len>,8,3.191e-06,3.191e-06,0.43671450300000003,0.43671450300000003
+_internal.py,448,_promote_fields,~,0,<built-in method builtins.len>,52,7.865e-06,7.865e-06,0.43671450300000003,0.43671450300000003
+numeric.py,1437,moveaxis,~,0,<built-in method builtins.len>,4,6.310000000000001e-07,6.310000000000001e-07,0.43671450300000003,0.43671450300000003
+_function_base_impl.py,1324,diff,~,0,<built-in method builtins.len>,31,8.977e-06,8.977e-06,0.43671450300000003,0.43671450300000003
+linalg_helper.py,166,_fill_heff_hermitian,~,0,<built-in method builtins.len>,180,4.8119000000000005e-05,4.8119000000000005e-05,0.43671450300000003,0.43671450300000003
+linalg_helper.py,1409,_qr,~,0,<built-in method builtins.len>,15,4.354e-06,4.354e-06,0.43671450300000003,0.43671450300000003
+numpy_helper.py,478,take_2d,~,0,<built-in method builtins.len>,180,0.000113053,0.000113053,0.43671450300000003,0.43671450300000003
+linalg_helper.py,291,davidson1,~,0,<built-in method builtins.len>,278,0.00023829000000000002,0.00023829000000000002,0.43671450300000003,0.43671450300000003
+_decomp.py,284,eigh,~,0,<built-in method builtins.len>,90,7.1603e-05,7.1603e-05,0.43671450300000003,0.43671450300000003
+selected_ci.py,175,cre_des_linkstr,~,0,<built-in method builtins.len>,120,0.00015201,0.00015201,0.43671450300000003,0.43671450300000003
+cistring.py,113,_strs2occslst,~,0,<built-in method builtins.len>,30,9.912000000000001e-06,9.912000000000001e-06,0.43671450300000003,0.43671450300000003
+selected_ci.py,194,des_des_linkstr,~,0,<built-in method builtins.len>,179,0.000115556,0.000115556,0.43671450300000003,0.43671450300000003
+selected_ci.py,289,make_hdiag,~,0,<built-in method builtins.len>,30,2.3573000000000003e-05,2.3573000000000003e-05,0.43671450300000003,0.43671450300000003
+selected_ci.py,313,kernel_fixed_space,~,0,<built-in method builtins.len>,30,1.3412000000000001e-05,1.3412000000000001e-05,0.43671450300000003,0.43671450300000003
+subsampling.py,96,postselect_by_hamming_right_and_left,~,0,<built-in method builtins.len>,1,2.5200000000000003e-07,2.5200000000000003e-07,0.43671450300000003,0.43671450300000003
+fermion.py,66,__post_init__,~,0,<built-in method builtins.len>,30,4.0676e-05,4.0676e-05,0.43671450300000003,0.43671450300000003
+subsampling.py,147,subsample,~,0,<built-in method builtins.len>,5,1.307e-05,1.307e-05,0.43671450300000003,0.43671450300000003
+configuration_recovery.py,59,recover_configurations,~,0,<built-in method builtins.len>,4,1.2170000000000002e-06,1.2170000000000002e-06,0.43671450300000003,0.43671450300000003
+selected_ci.py,769,get_init_guess,~,0,<built-in method builtins.len>,30,3.4717e-05,3.4717e-05,0.43671450300000003,0.43671450300000003
+lapack.py,1025,_compute_lwork,~,0,<built-in method builtins.len>,90,2.9400000000000003e-05,2.9400000000000003e-05,0.43671450300000003,0.43671450300000003
+_arraysetops_impl.py,327,reshape_uniq,~,0,<built-in method builtins.len>,1,8.130000000000001e-07,8.130000000000001e-07,0.43671450300000003,0.43671450300000003
+_arraysetops_impl.py,131,_unpack_tuple,~,0,<built-in method builtins.len>,1557950,0.43564873600000004,0.43564873600000004,0.43671450300000003,0.43671450300000003
+numeric.py,1736,indices,~,0,<built-in method builtins.len>,90,0.00011250000000000001,0.00011250000000000001,0.43671450300000003,0.43671450300000003
+iostream.py,107,_handle_event,~,0,<built-in method builtins.len>,2,6.420000000000001e-07,6.420000000000001e-07,0.43671450300000003,0.43671450300000003
+queue.py,209,_qsize,~,0,<built-in method builtins.len>,2,8.8e-07,8.8e-07,0.43671450300000003,0.43671450300000003
+session.py,273,msg_header,~,0,<built-in method builtins.locals>,1,3.221e-06,3.221e-06,3.221e-06,3.221e-06
+~,0,<built-in method time.sleep>,~,0,<built-in method builtins.max>,4,2.2777000000000002e-05,2.2777000000000002e-05,0.0004940620000000001,0.0004940620000000001
+selectors.py,451,select,~,0,<built-in method builtins.max>,3,3.829e-06,3.829e-06,0.0004940620000000001,0.0004940620000000001
+base_events.py,1922,_run_once,~,0,<built-in method builtins.max>,1,6.08e-07,6.08e-07,0.0004940620000000001,0.0004940620000000001
+session.py,751,send,~,0,<built-in method builtins.max>,1,1.695e-06,1.695e-06,0.0004940620000000001,0.0004940620000000001
+linalg_helper.py,291,davidson1,~,0,<built-in method builtins.max>,86,0.000463136,0.000463136,0.0004940620000000001,0.0004940620000000001
+asyncio.py,210,call_at,~,0,<built-in method builtins.max>,1,2.017e-06,2.017e-06,0.0004940620000000001,0.0004940620000000001
+~,0,<built-in method time.sleep>,~,0,<built-in method builtins.min>,1,2.385e-06,2.385e-06,0.000446167,0.00045770600000000005
+base_events.py,1922,_run_once,~,0,<built-in method builtins.min>,1,1.2110000000000001e-06,1.2110000000000001e-06,0.000446167,0.00045770600000000005
+linalg_helper.py,1490,_normalize_xt_,~,0,<built-in method builtins.min>,75,0.000348141,0.000348141,0.000446167,0.00045770600000000005
+linalg_helper.py,291,davidson1,~,0,<built-in method builtins.min>,14,2.6705000000000003e-05,2.6705000000000003e-05,0.000446167,0.00045770600000000005
+fermion.py,149,diagonalize_fermionic_hamiltonian,~,0,<built-in method builtins.min>,5,6.7725e-05,7.9264e-05,0.000446167,0.00045770600000000005
+~,0,<built-in method time.sleep>,~,0,<built-in method builtins.round>,92,0.00030607100000000004,0.00030607100000000004,2.18810273,2.18810273
+configuration_recovery.py,181,_bipartite_bitstring_correcting,~,0,<built-in method builtins.round>,794516,2.187796659,2.187796659,2.18810273,2.18810273
+~,0,<built-in method time.sleep>,~,0,<built-in method builtins.sorted>,1,0.001003933,0.001003933,0.084554693,0.084554693
+numeric.py,1437,moveaxis,~,0,<built-in method builtins.sorted>,2,7.221000000000001e-06,7.221000000000001e-06,0.084554693,0.084554693
+selected_ci.py,194,des_des_linkstr,~,0,<built-in method builtins.sorted>,119,0.083543539,0.083543539,0.084554693,0.084554693
+direct_spin1.py,178,absorb_h1e,~,0,<built-in method builtins.sum>,15,3.5756e-05,3.5756e-05,3.5756e-05,3.5756e-05
+iostream.py,584,_rotate_buffer,~,0,<method '__exit__' of '_thread.RLock' objects>,1,8.760000000000001e-07,8.760000000000001e-07,8.760000000000001e-07,8.760000000000001e-07
+threading.py,1155,_wait_for_tstate_lock,~,0,<method 'acquire' of '_thread.lock' objects>,1,1.638e-06,1.638e-06,1.638e-06,1.638e-06
+queue.py,97,empty,~,0,<method '__exit__' of '_thread.lock' objects>,2,1.294e-06,1.294e-06,1.294e-06,1.294e-06
+iostream.py,577,_flush_buffer,~,0,<method 'close' of '_io.StringIO' objects>,1,3.77e-07,3.77e-07,3.77e-07,3.77e-07
+iostream.py,577,_flush_buffer,~,0,<method 'getvalue' of '_io.StringIO' objects>,1,1.271e-06,1.271e-06,1.271e-06,1.271e-06
+ioloop.py,541,time,~,0,<built-in method time.time>,2,1.824e-06,1.824e-06,1.824e-06,1.824e-06
+_arraysetops_impl.py,342,_unique1d,~,0,<built-in method time.sleep>,18,0.00031124200000000004,0.00031124200000000004,2432.758190973,2734.7935063630002
+linalg_helper.py,291,davidson1,~,0,<built-in method time.sleep>,0,0.0,0.0,2432.758190973,2734.7935063630002
+selected_ci.py,48,contract_2e,~,0,<built-in method time.sleep>,0,0.0,0.0,2432.758190973,2734.7935063630002
+selected_ci.py,313,kernel_fixed_space,~,0,<built-in method time.sleep>,0,0.0,0.0,2432.758190973,2734.7935063630002
+selected_ci.py,519,make_rdm2s,~,0,<built-in method time.sleep>,101,94.75857546900001,94.76077439000001,2432.758190973,2734.7935063630002
+configuration_recovery.py,59,recover_configurations,~,0,<built-in method time.sleep>,178,0.039729168,0.078988798,2432.758190973,2734.7935063630002
+fermion.py,149,diagonalize_fermionic_hamiltonian,~,0,<built-in method time.sleep>,3,3.434224958,148.78806382800002,2432.758190973,2734.7935063630002
+direct_spin1.py,920,eig,~,0,<built-in method time.sleep>,0,0.0,0.0,2432.758190973,2734.7935063630002
+selected_ci.py,568,make_rdm2,~,0,<built-in method time.sleep>,782,774.763237664,877.8803989620001,2432.758190973,2734.7935063630002
+selected_ci.py,758,contract_2e,~,0,<built-in method time.sleep>,1602,1558.9253642780002,1559.693427122,2432.758190973,2734.7935063630002
+base_events.py,738,time,~,0,<built-in method time.monotonic>,5,7.32e-06,7.32e-06,7.32e-06,7.32e-06
+selected_ci.py,313,kernel_fixed_space,~,0,<built-in method time.process_time>,15,0.000132867,0.000132867,0.00105415,0.00105415
+logger.py,182,timer_debug1,~,0,<built-in method time.process_time>,90,0.000772592,0.000772592,0.00105415,0.00105415
+logger.py,200,__init__,~,0,<built-in method time.process_time>,15,0.000148691,0.000148691,0.00105415,0.00105415
+selected_ci.py,313,kernel_fixed_space,~,0,<built-in method time.perf_counter>,15,1.7298e-05,1.7298e-05,0.000133508,0.000133508
+logger.py,182,timer_debug1,~,0,<built-in method time.perf_counter>,90,9.967500000000001e-05,9.967500000000001e-05,0.000133508,0.000133508
+logger.py,200,__init__,~,0,<built-in method time.perf_counter>,15,1.6535e-05,1.6535e-05,0.000133508,0.000133508
+session.py,751,send,~,0,<built-in method posix.getpid>,1,5.89e-07,5.89e-07,6.16e-06,6.16e-06
+iostream.py,495,_flush,~,0,<built-in method posix.getpid>,1,4.001e-06,4.001e-06,6.16e-06,6.16e-06
+iostream.py,162,_is_master_process,~,0,<built-in method posix.getpid>,1,9.95e-07,9.95e-07,6.16e-06,6.16e-06
+session.py,599,msg_id,~,0,<built-in method posix.getpid>,1,5.75e-07,5.75e-07,6.16e-06,6.16e-06
+_arraysetops_impl.py,342,_unique1d,~,0,<built-in method posix.getppid>,19,5.7249e-05,5.7249e-05,0.012181356,0.012181356
+linalg_helper.py,291,davidson1,~,0,<built-in method posix.getppid>,1,3.26e-06,3.26e-06,0.012181356,0.012181356
+selected_ci.py,48,contract_2e,~,0,<built-in method posix.getppid>,1,3.565e-06,3.565e-06,0.012181356,0.012181356
+selected_ci.py,313,kernel_fixed_space,~,0,<built-in method posix.getppid>,1,3.474e-06,3.474e-06,0.012181356,0.012181356
+selected_ci.py,519,make_rdm2s,~,0,<built-in method posix.getppid>,102,0.00046465600000000003,0.00046465600000000003,0.012181356,0.012181356
+configuration_recovery.py,59,recover_configurations,~,0,<built-in method posix.getppid>,179,0.0005511810000000001,0.0005511810000000001,0.012181356,0.012181356
+fermion.py,149,diagonalize_fermionic_hamiltonian,~,0,<built-in method posix.getppid>,4,1.4255000000000002e-05,1.4255000000000002e-05,0.012181356,0.012181356
+direct_spin1.py,920,eig,~,0,<built-in method posix.getppid>,1,3.791e-06,3.791e-06,0.012181356,0.012181356
+selected_ci.py,568,make_rdm2,~,0,<built-in method posix.getppid>,783,0.0035022540000000002,0.0035022540000000002,0.012181356,0.012181356
+selected_ci.py,758,contract_2e,~,0,<built-in method posix.getppid>,1603,0.007577671,0.007577671,0.012181356,0.012181356
+<frozen abc>,117,__instancecheck__,~,0,<built-in method _abc._abc_instancecheck>,91,0.00050931,0.00050931,0.00050931,0.00050931
+<frozen abc>,121,__subclasscheck__,~,0,<built-in method _abc._abc_subclasscheck>,2,6.730000000000001e-06,6.730000000000001e-06,6.730000000000001e-06,6.730000000000001e-06
+~,0,<built-in method time.sleep>,~,0,<method 'append' of 'collections.deque' objects>,1,1.3580000000000002e-06,1.3580000000000002e-06,3.6460000000000003e-06,3.6460000000000003e-06
+iostream.py,202,schedule,~,0,<method 'append' of 'collections.deque' objects>,1,5.19e-07,5.19e-07,3.6460000000000003e-06,3.6460000000000003e-06
+base_events.py,1907,_add_callback,~,0,<method 'append' of 'collections.deque' objects>,2,1.7690000000000001e-06,1.7690000000000001e-06,3.6460000000000003e-06,3.6460000000000003e-06
+~,0,<built-in method time.sleep>,~,0,<method 'popleft' of 'collections.deque' objects>,1,9.7e-07,9.7e-07,3.5270000000000003e-06,3.5270000000000003e-06
+base_events.py,1922,_run_once,~,0,<method 'popleft' of 'collections.deque' objects>,1,5.53e-07,5.53e-07,3.5270000000000003e-06,3.5270000000000003e-06
+iostream.py,107,_handle_event,~,0,<method 'popleft' of 'collections.deque' objects>,2,1.034e-06,1.034e-06,3.5270000000000003e-06,3.5270000000000003e-06
+numeric.py,1373,normalize_axis_tuple,~,0,<built-in method _operator.index>,4,1.858e-06,1.858e-06,2.029e-05,2.029e-05
+_twodim_base_impl.py,159,eye,~,0,<built-in method _operator.index>,30,1.8432000000000002e-05,1.8432000000000002e-05,2.029e-05,2.029e-05
+session.py,201,utcnow,~,0,<built-in method utcnow>,1,3.4024000000000005e-05,3.4024000000000005e-05,3.4024000000000005e-05,3.4024000000000005e-05
+jsonutil.py,108,json_default,~,0,<method 'isoformat' of 'datetime.datetime' objects>,2,3.2911000000000004e-05,3.2911000000000004e-05,3.2911000000000004e-05,3.2911000000000004e-05
+session.py,201,utcnow,~,0,<method 'replace' of 'datetime.datetime' objects>,1,5.5590000000000005e-06,5.5590000000000005e-06,5.5590000000000005e-06,5.5590000000000005e-06
+selectors.py,451,select,~,0,<built-in method math.ceil>,1,1.2140000000000002e-06,1.2140000000000002e-06,1.2140000000000002e-06,1.2140000000000002e-06
+base_events.py,771,call_at,~,0,<built-in method _heapq.heappush>,1,9.630000000000001e-07,9.630000000000001e-07,9.630000000000001e-07,9.630000000000001e-07
+~,0,<built-in method time.sleep>,~,0,<built-in method _heapq.heappop>,1,1.3460000000000001e-06,1.3460000000000001e-06,1.3460000000000001e-06,1.3460000000000001e-06
+selectors.py,451,select,~,0,<method 'poll' of 'select.epoll' objects>,1,1.027e-05,0.0,5.6559000000000005e-05,0.49617965900000005
+enum.py,720,__call__,enum.py,1128,__new__,20,2.0421e-05,2.0421e-05,2.0421e-05,2.0421e-05
+traitlets.py,2373,validate,traitlets.py,2336,_validate_bounds,1,9.070000000000001e-07,9.070000000000001e-07,9.070000000000001e-07,9.070000000000001e-07
+bit_array.py,67,__init__,typing.py,1770,_no_init_or_replace_init,1,2.156e-06,2.156e-06,2.156e-06,2.156e-06
+encoder.py,183,encode,encoder.py,205,iterencode,4,4.2412e-05,9.000100000000001e-05,4.2412e-05,9.000100000000001e-05
+base_events.py,1922,_run_once,selectors.py,451,select,2,0.003871362,0.0,0.003975633,2696.144463077
+traitlets.py,720,__set__,traitlets.py,702,set,1,5.65e-06,2.4472000000000002e-05,5.65e-06,2.4472000000000002e-05
+base_events.py,747,call_later,base_events.py,771,call_at,1,1.027e-05,2.7791000000000002e-05,1.027e-05,2.7791000000000002e-05
+traitlets.py,689,__get__,traitlets.py,651,get,14,1.3245000000000001e-05,1.3245000000000001e-05,1.3245000000000001e-05,1.3245000000000001e-05
+traitlets.py,731,_validate,traitlets.py,740,_cross_validate,1,4.586000000000001e-06,7.583e-06,4.586000000000001e-06,7.583e-06
+fermion.py,149,diagonalize_fermionic_hamiltonian,base_events.py,1922,_run_once,1,1.3679e-05,0.0016999390000000001,0.007335250000000001,2696.155233937
+~,0,<built-in method time.sleep>,events.py,86,_run,1,8.526000000000001e-06,0.000499077,1.9758e-05,0.002517318
+base_events.py,1922,_run_once,events.py,86,_run,1,4.128e-06,0.0016542350000000002,1.9758e-05,0.002517318
+~,0,<built-in method time.sleep>,selector_events.py,750,_process_events,1,1.385e-06,1.385e-06,1.2992e-05,2.0537e-05
+base_events.py,1922,_run_once,selector_events.py,750,_process_events,1,3.996e-06,5.56e-06,1.2992e-05,2.0537e-05
+zmqstream.py,574,_handle_events,attrsettr.py,43,__getattr__,2,3.2422e-05,0.000131406,5.0096e-05,0.00018679200000000002
+zmqstream.py,677,_update_handler,attrsettr.py,43,__getattr__,2,1.7674e-05,5.5386e-05,5.0096e-05,0.00018679200000000002
+socket.py,709,send_multipart,socket.py,632,send,7,0.001097162,0.001262827,0.001139519,0.001305184
+iostream.py,202,schedule,socket.py,632,send,1,4.2357e-05,4.2357e-05,0.001139519,0.001305184
+iostream.py,221,_really_send,socket.py,709,send_multipart,1,2.8804e-05,0.001354086,2.8804e-05,0.001354086
+zmqstream.py,615,_handle_recv,socket.py,780,recv_multipart,2,5.2679e-05,0.000104838,5.2679e-05,0.000104838
+session.py,751,send,session.py,687,serialize,1,1.4752e-05,0.00017560900000000002,1.4752e-05,0.00017560900000000002
+iostream.py,495,_flush,session.py,751,send,1,2.7239e-05,0.000382899,2.7239e-05,0.000382899
+asyncio.py,200,_handle_events,zmqstream.py,574,_handle_events,2,3.6296e-05,0.0019915690000000003,3.6296e-05,0.0019915690000000003
+encoder.py,205,iterencode,jsonutil.py,108,json_default,2,1.0391000000000001e-05,4.7589e-05,1.0391000000000001e-05,4.7589e-05
+zmqstream.py,574,_handle_events,zmqstream.py,615,_handle_recv,2,1.1105000000000001e-05,0.0016352040000000001,1.1105000000000001e-05,0.0016352040000000001
+ioloop.py,742,_run_callback,iostream.py,495,_flush,1,3.5914e-05,0.00047774000000000004,3.5914e-05,0.00047774000000000004
+iostream.py,202,schedule,iostream.py,90,_event_pipe,1,4.055e-06,4.055e-06,4.055e-06,4.055e-06
+~,0,<built-in method time.sleep>,numeric.py,460,count_nonzero,92,6.504900000000001e-05,0.00011177000000000001,0.493723689,0.8549601280000001
+subsampling.py,147,subsample,numeric.py,460,count_nonzero,12,1.8165e-05,0.00012258900000000002,0.493723689,0.8549601280000001
+configuration_recovery.py,181,_bipartite_bitstring_correcting,numeric.py,460,count_nonzero,794516,0.493640475,0.8547257690000001,0.493723689,0.8549601280000001
+numeric.py,1437,moveaxis,numeric.py,1373,normalize_axis_tuple,4,4.2418e-05,5.0773e-05,4.2418e-05,5.0773e-05
+socket.py,632,send,_internal.py,448,_promote_fields,1,0.00011466900000000001,0.000147057,0.00011466900000000001,0.000147057
+fromnumeric.py,2255,sum,fromnumeric.py,69,_wrapreduction,2394625,4.763951625000001,13.982716273000001,7.331274509000001,21.614377485000002
+fromnumeric.py,3068,prod,fromnumeric.py,69,_wrapreduction,794621,2.567322884,7.631661212000001,7.331274509000001,21.614377485000002
+_arraysetops_impl.py,144,unique,numeric.py,1437,moveaxis,1,2.194e-05,6.427800000000001e-05,3.2868000000000004e-05,9.991100000000001e-05
+_arraysetops_impl.py,327,reshape_uniq,numeric.py,1437,moveaxis,1,1.0928000000000001e-05,3.5633e-05,3.2868000000000004e-05,9.991100000000001e-05
+_linalg.py,493,inv,_ufunc_config.py,410,__enter__,15,6.9755e-05,0.00018142100000000002,6.9755e-05,0.00018142100000000002
+fermion.py,149,diagonalize_fermionic_hamiltonian,_ufunc_config.py,434,inner,1,5.4532000000000006e-05,6.0480000000000004e-05,5.4532000000000006e-05,6.0480000000000004e-05
+~,0,<built-in method time.sleep>,getlimits.py,487,__new__,184,0.000130254,0.00022365400000000002,0.965648476,1.6004384520000001
+subsampling.py,147,subsample,getlimits.py,487,__new__,24,2.8079000000000003e-05,5.2937000000000005e-05,0.965648476,1.6004384520000001
+configuration_recovery.py,181,_bipartite_bitstring_correcting,getlimits.py,487,__new__,1589032,0.965490143,1.6001618610000001,0.965648476,1.6004384520000001
+~,0,<built-in method time.sleep>,einsumfunc.py,1057,einsum,85,0.000343835,0.016020588000000002,0.0013039660000000002,0.185379427
+linalg_helper.py,1432,_outprod_to_subspace,einsumfunc.py,1057,einsum,180,0.000756721,0.152226185,0.0013039660000000002,0.185379427
+direct_spin1.py,178,absorb_h1e,einsumfunc.py,1057,einsum,15,4.0707e-05,0.001255927,0.0013039660000000002,0.185379427
+selected_ci.py,48,contract_2e,einsumfunc.py,1057,einsum,5,2.056e-05,0.000920049,0.0013039660000000002,0.185379427
+selected_ci.py,289,make_hdiag,einsumfunc.py,1057,einsum,30,4.4217e-05,0.00018226600000000002,0.0013039660000000002,0.185379427
+fermion.py,476,solve_sci,einsumfunc.py,1057,einsum,30,9.792600000000001e-05,0.014774412,0.0013039660000000002,0.185379427
+~,0,<built-in method time.sleep>,_internal.py,261,__init__,816,0.0017529400000000001,0.001772883,0.007718189,0.007738132000000001
+numpy_helper.py,574,transpose,_internal.py,261,__init__,390,0.0009486080000000001,0.0009486080000000001,0.007718189,0.007738132000000001
+numpy_helper.py,256,pack_tril,_internal.py,261,__init__,30,5.551e-05,5.551e-05,0.007718189,0.007738132000000001
+numpy_helper.py,478,take_2d,_internal.py,261,__init__,360,0.0009051520000000001,0.0009051520000000001,0.007718189,0.007738132000000001
+addons.py,190,_convert,_internal.py,261,__init__,240,0.0009347680000000001,0.0009347680000000001,0.007718189,0.007738132000000001
+rdm.py,123,make_rdm12_spin1,_internal.py,261,__init__,90,0.00015043600000000002,0.00015043600000000002,0.007718189,0.007738132000000001
+selected_ci.py,175,cre_des_linkstr,_internal.py,261,__init__,240,0.000570973,0.000570973,0.007718189,0.007738132000000001
+rdm.py,91,make_rdm1_spin1,_internal.py,261,__init__,300,0.000466139,0.000466139,0.007718189,0.007738132000000001
+selected_ci.py,194,des_des_linkstr,_internal.py,261,__init__,417,0.000772601,0.000772601,0.007718189,0.007738132000000001
+selected_ci.py,48,contract_2e,_internal.py,261,__init__,405,0.0008596570000000001,0.0008596570000000001,0.007718189,0.007738132000000001
+selected_ci.py,289,make_hdiag,_internal.py,261,__init__,90,0.000125396,0.000125396,0.007718189,0.007738132000000001
+selected_ci.py,519,make_rdm2s,_internal.py,261,__init__,72,0.000176009,0.000176009,0.007718189,0.007738132000000001
+_linalg.py,493,inv,_linalg.py,148,_commonType,15,0.00011381500000000001,0.000185631,0.00011381500000000001,0.000185631
+configuration_recovery.py,59,recover_configurations,_function_base_impl.py,249,flip,4,3.9441000000000004e-05,5.2914e-05,3.9441000000000004e-05,5.2914e-05
+_stride_tricks_impl.py,376,broadcast_to,_stride_tricks_impl.py,349,_broadcast_to,180,0.005038414000000001,0.006769494,0.005038414000000001,0.006769494
+~,0,<built-in method time.sleep>,_arraysetops_impl.py,144,unique,409,0.00115649,0.0,3.752284942,30.406846345
+subsampling.py,147,subsample,_arraysetops_impl.py,144,unique,15,9.170200000000001e-05,0.0010809910000000001,3.752284942,30.406846345
+fermion.py,149,diagonalize_fermionic_hamiltonian,_arraysetops_impl.py,144,unique,42,0.000151688,0.002193439,3.752284942,30.406846345
+configuration_recovery.py,181,_bipartite_bitstring_correcting,_arraysetops_impl.py,144,unique,1557463,3.7508130000000004,30.356720525000004,3.752284942,30.406846345
+fermion.py,428,_unique_with_order_preserved,_arraysetops_impl.py,144,unique,20,5.9038000000000006e-05,0.001012125,3.752284942,30.406846345
+_arraysetops_impl.py,144,unique,_arraysetops_impl.py,342,_unique1d,1557949,17.028079716,3.9964000000000006e-05,17.063636353,25.07925171
+~,0,<method 'poll' of 'select.epoll' objects>,_function_base_impl.py,1324,diff,1,0.00014969200000000002,0.000153234,0.00047246900000000005,0.000514442
+_arraysetops_impl.py,342,_unique1d,_function_base_impl.py,1324,diff,30,0.000322777,0.000361208,0.00047246900000000005,0.000514442
+~,0,<built-in method time.sleep>,numpy_helper.py,574,transpose,97,0.186497082,0.189098493,0.46830830900000003,0.47295262600000004
+selected_ci.py,48,contract_2e,numpy_helper.py,574,transpose,95,0.27363406900000004,0.2756022,0.46830830900000003,0.47295262600000004
+selected_ci.py,519,make_rdm2s,numpy_helper.py,574,transpose,3,0.008177158,0.008251933000000001,0.46830830900000003,0.47295262600000004
+~,0,<built-in method time.sleep>,linalg_helper.py,166,_fill_heff_hermitian,3,0.006974477000000001,0.007122403,0.49457281500000005,0.502898834
+linalg_helper.py,291,davidson1,linalg_helper.py,166,_fill_heff_hermitian,87,0.487598338,0.495776431,0.49457281500000005,0.502898834
+direct_spin1.py,549,_get_init_guess,numpy_helper.py,256,pack_tril,15,0.020232972000000002,0.020584801,0.020232972000000002,0.020584801
+linalg_helper.py,291,davidson1,linalg_helper.py,1409,_qr,15,0.044731223,0.053717028,0.044731223,0.053717028
+misc.py,677,check_sanity,misc.py,702,check_sanity,15,0.000258249,0.00033807300000000004,0.000258249,0.00033807300000000004
+selected_ci.py,48,contract_2e,numpy_helper.py,478,take_2d,90,0.20539300300000002,0.210262839,0.20539300300000002,0.210262839
+~,0,<built-in method time.sleep>,linalg_helper.py,1466,_sort_elast,3,0.00023035700000000002,0.000348306,0.004914503000000001,0.012428577000000001
+linalg_helper.py,291,davidson1,linalg_helper.py,1466,_sort_elast,72,0.004684146,0.012080271,0.004914503000000001,0.012428577000000001
+~,0,<built-in method time.sleep>,linalg_helper.py,1490,_normalize_xt_,3,0.024374627000000003,0.024439004,0.5470783810000001,0.548748199
+linalg_helper.py,291,davidson1,linalg_helper.py,1490,_normalize_xt_,75,0.522703754,0.5243091950000001,0.5470783810000001,0.548748199
+_decomp.py,284,eigh,_util.py,410,_asarray_validated,90,0.0014917810000000002,0.008631257,0.0014917810000000002,0.008631257
+direct_spin1.py,920,eig,linalg_helper.py,291,davidson1,15,0.29095407,1555.52893578,0.29095407,1555.52893578
+~,0,<built-in method time.sleep>,linalg_helper.py,1432,_outprod_to_subspace,6,0.014605326,0.018056469000000002,0.531098049,0.6847595900000001
+linalg_helper.py,291,davidson1,linalg_helper.py,1432,_outprod_to_subspace,174,0.516492723,0.6667031210000001,0.531098049,0.6847595900000001
+lapack.py,1055,<genexpr>,lapack.py,1059,_check_work_float,180,0.0009565190000000001,0.0009565190000000001,0.0009565190000000001,0.0009565190000000001
+~,0,<built-in method time.sleep>,_util.py,1203,wrapper,3,9.1154e-05,0.00096955,0.002890057,0.028339775
+linalg_helper.py,291,davidson1,_util.py,1203,wrapper,87,0.002798903,0.027370225,0.002890057,0.028339775
+_util.py,1203,wrapper,_decomp.py,284,eigh,90,0.010490414,0.025147075,0.010490414,0.025147075
+addons.py,60,restore,addons.py,190,_convert,120,0.060659925,0.070084382,0.060659925,0.070084382
+~,0,<built-in method time.sleep>,addons.py,60,restore,85,0.002042173,0.055546992,0.00417859,0.076444074
+direct_spin1.py,178,absorb_h1e,addons.py,60,restore,30,0.000408279,0.005824604000000001,0.00417859,0.076444074
+selected_ci.py,48,contract_2e,addons.py,60,restore,95,0.00137056,0.006113512000000001,0.00417859,0.076444074
+selected_ci.py,289,make_hdiag,addons.py,60,restore,15,0.00023048500000000003,0.00037936800000000004,0.00417859,0.076444074
+selected_ci.py,313,kernel_fixed_space,addons.py,60,restore,15,0.000127093,0.008579598,0.00417859,0.076444074
+selected_ci.py,519,make_rdm2s,rdm.py,123,make_rdm12_spin1,15,8.16810101,8.168231135000001,8.16810101,8.168231135000001
+selected_ci.py,519,make_rdm2s,selected_ci.py,175,cre_des_linkstr,30,0.070148863,0.07474441300000001,0.26845616,0.285516814
+selected_ci.py,484,make_rdm1s,selected_ci.py,175,cre_des_linkstr,60,0.14368034300000002,0.153058735,0.26845616,0.285516814
+selected_ci.py,189,cre_des_linkstr_tril,selected_ci.py,175,cre_des_linkstr,30,0.054626954000000005,0.057713666000000004,0.26845616,0.285516814
+selected_ci.py,484,make_rdm1s,rdm.py,91,make_rdm1_spin1,60,0.41696956700000004,0.41991470000000003,0.41696956700000004,0.41991470000000003
+selected_ci.py,313,kernel_fixed_space,direct_spin1.py,178,absorb_h1e,15,0.007243521,0.028935513000000003,0.007243521,0.028935513000000003
+selected_ci.py,289,make_hdiag,cistring.py,113,_strs2occslst,30,0.0050115920000000005,0.005681268000000001,0.0050115920000000005,0.005681268000000001
+selected_ci.py,769,get_init_guess,direct_spin1.py,549,_get_init_guess,15,0.001802542,0.043574810000000005,0.001802542,0.043574810000000005
+selected_ci.py,739,__init__,direct_spin1.py,847,__init__,15,8.9041e-05,8.9041e-05,8.9041e-05,8.9041e-05
+selected_ci.py,519,make_rdm2s,selected_ci.py,194,des_des_linkstr,30,0.5452289810000001,0.770796398,0.9505963780000001,1.247256641
+selected_ci.py,230,des_des_linkstr_tril,selected_ci.py,194,des_des_linkstr,30,0.405367397,0.476460243,0.9505963780000001,1.247256641
+selected_ci.py,758,contract_2e,selected_ci.py,48,contract_2e,90,45.220870052,45.272710973,45.220870052,45.272710973
+selected_ci.py,313,kernel_fixed_space,selected_ci.py,289,make_hdiag,15,0.23241708800000002,0.239739732,0.23241708800000002,0.239739732
+fermion.py,476,solve_sci,selected_ci.py,313,kernel_fixed_space,15,0.0019285690000000002,1608.182854033,0.0019285690000000002,1608.182854033
+selected_ci.py,568,make_rdm2,selected_ci.py,519,make_rdm2s,15,6.043338108,6.089472831,6.043338108,6.089472831
+~,0,<method 'poll' of 'select.epoll' objects>,bit_array.py,67,__init__,1,2.1571e-05,2.5292e-05,2.1571e-05,2.5292e-05
+fermion.py,149,diagonalize_fermionic_hamiltonian,subsampling.py,96,postselect_by_hamming_right_and_left,1,0.000536586,0.009530953,0.000536586,0.009530953
+fermion.py,435,solve_sci_batch,fermion.py,476,solve_sci,15,0.024685916000000002,2494.297742024,0.024685916000000002,2494.297742024
+<string>,2,__init__,fermion.py,66,__post_init__,15,0.000154208,0.00020644,0.000154208,0.00020644
+fermion.py,149,diagonalize_fermionic_hamiltonian,subsampling.py,147,subsample,5,0.014053874000000001,0.024727805000000002,0.014053874000000001,0.024727805000000002
+fermion.py,149,diagonalize_fermionic_hamiltonian,configuration_recovery.py,59,recover_configurations,4,1.753496388,51.856392098,1.753496388,51.856392098
+~,0,<method 'poll' of 'select.epoll' objects>,fermion.py,149,diagonalize_fermionic_hamiltonian,1,0.035151462,2695.6388860250004,0.035151462,2695.6388860250004
+configuration_recovery.py,59,recover_configurations,configuration_recovery.py,181,_bipartite_bitstring_correcting,400000,89.24693109600001,184.167871033,89.24693109600001,184.167871033
+~,0,<built-in method builtins.min>,fermion.py,377,<lambda>,15,1.1539e-05,1.1539e-05,1.1539e-05,1.1539e-05
+configuration_recovery.py,181,_bipartite_bitstring_correcting,configuration_recovery.py,162,_p_flip_1_to_0,8968448,5.415319498000001,10.386115329,5.415319498000001,10.386115329
+fermion.py,476,solve_sci,<string>,2,__init__,15,0.00021400800000000002,0.000420448,0.00021400800000000002,0.000420448
+fermion.py,149,diagonalize_fermionic_hamiltonian,fermion.py,428,_unique_with_order_preserved,20,0.000160413,0.001313801,0.000160413,0.001313801
+configuration_recovery.py,181,_bipartite_bitstring_correcting,configuration_recovery.py,131,_p_flip_0_to_1,11831552,4.746721594,4.746721594,9.717517425,9.717517425
+configuration_recovery.py,162,_p_flip_1_to_0,configuration_recovery.py,131,_p_flip_0_to_1,8968448,4.970795831,4.970795831,9.717517425,9.717517425
+fermion.py,149,diagonalize_fermionic_hamiltonian,counts.py,45,bit_array_to_arrays,1,0.00019213000000000002,0.03615451,0.00019213000000000002,0.03615451
+fermion.py,149,diagonalize_fermionic_hamiltonian,counts.py,186,bitstring_matrix_to_integers,30,0.002857309,0.002929136,0.002857309,0.002929136
+fermion.py,149,diagonalize_fermionic_hamiltonian,fermion.py,435,solve_sci_batch,5,0.009062066,2494.3068040900002,0.009062066,2494.3068040900002
+base_events.py,1922,_run_once,bit_array.py,157,num_shots,1,3.095e-06,3.095e-06,3.095e-06,3.095e-06
+counts.py,45,bit_array_to_arrays,bit_array.py,144,array,1,1.5040000000000001e-06,1.5040000000000001e-06,1.5040000000000001e-06,1.5040000000000001e-06
+bit_array.py,67,__init__,bit_array.py,37,_min_num_bytes,1,1.302e-06,1.302e-06,1.302e-06,1.302e-06
+~,0,<built-in method time.sleep>,bit_array.py,149,num_bits,1,9.327e-06,9.327e-06,9.327e-06,9.327e-06
+direct_spin1.py,549,_get_init_guess,addons.py,822,_unpack_nelec,15,5.2529000000000005e-05,6.762100000000001e-05,0.000613729,0.0009429810000000001
+selected_ci.py,313,kernel_fixed_space,addons.py,822,_unpack_nelec,15,3.5679e-05,4.7268e-05,0.000613729,0.0009429810000000001
+selected_ci.py,812,make_rdm1s,addons.py,822,_unpack_nelec,30,8.199700000000001e-05,0.00011981200000000001,0.000613729,0.0009429810000000001
+selected_ci.py,830,make_rdm2,addons.py,822,_unpack_nelec,15,7.699700000000001e-05,0.00010690500000000001,0.000613729,0.0009429810000000001
+selected_ci.py,893,_unpack,addons.py,822,_unpack_nelec,165,0.000333894,0.000554407,0.000613729,0.0009429810000000001
+selected_ci.py,818,make_rdm1,addons.py,822,_unpack_nelec,15,3.2633000000000004e-05,4.6968e-05,0.000613729,0.0009429810000000001
+selected_ci.py,313,kernel_fixed_space,selected_ci.py,769,get_init_guess,15,0.0002153,0.043978236000000004,0.0002153,0.043978236000000004
+selected_ci.py,313,kernel_fixed_space,selected_ci.py,903,_all_linkstr_index,15,0.000200831,0.53473071,0.000200831,0.53473071
+addons.py,60,restore,addons.py,206,_stand_sym_code,240,0.0009184970000000001,0.001089897,0.0009184970000000001,0.001089897
+selected_ci.py,313,kernel_fixed_space,direct_spin1.py,920,eig,15,0.028792347000000003,1607.296318477,0.028792347000000003,1607.296318477
+selected_ci.py,830,make_rdm2,selected_ci.py,568,make_rdm2,15,0.088820963,885.4915374100001,0.088820963,885.4915374100001
+direct_spin1.py,926,<lambda>,selected_ci.py,346,hop,90,0.002280784,1605.024079983,0.002280784,1605.024079983
+fermion.py,476,solve_sci,selected_ci.py,812,make_rdm1s,15,0.000257949,0.29384016,0.000437149,0.574490434
+selected_ci.py,818,make_rdm1,selected_ci.py,812,make_rdm1s,15,0.00017920000000000002,0.28065027400000003,0.000437149,0.574490434
+fermion.py,476,solve_sci,selected_ci.py,830,make_rdm2,15,0.000258269,885.491939705,0.000258269,885.491939705
+selected_ci.py,346,hop,selected_ci.py,758,contract_2e,90,0.018984387000000002,1605.018824594,0.018984387000000002,1605.018824594
+~,0,<built-in method time.sleep>,logger.py,142,debug,5,7.847000000000001e-06,7.847000000000001e-06,0.000156458,0.000156458
+linalg_helper.py,291,davidson1,logger.py,142,debug,100,0.00014861100000000002,0.00014861100000000002,0.000156458,0.000156458
+linalg_helper.py,291,davidson1,logger.py,146,debug1,33,1.8608000000000002e-05,1.8608000000000002e-05,1.8608000000000002e-05,1.8608000000000002e-05
+selected_ci.py,346,hop,logger.py,182,timer_debug1,90,0.000405463,0.0012777300000000001,0.000405463,0.0012777300000000001
+logger.py,219,new_logger,logger.py,200,__init__,15,4.3367e-05,0.000208593,4.3367e-05,0.000208593
+_util.py,410,_asarray_validated,_sparse.py,10,issparse,90,0.000181573,0.001380338,0.000181573,0.001380338
+~,0,<method 'join' of 'str' objects>,configuration_recovery.py,122,<genexpr>,21200000,5.181113885,5.181113885,5.181113885,5.181113885
+~,0,<built-in method time.sleep>,__init__.py,96,_xla_gc_callback,196,0.000481601,0.000481601,0.002899871,0.002899871
+_internal.py,261,__init__,__init__.py,96,_xla_gc_callback,2,1.9943000000000002e-05,1.9943000000000002e-05,0.002899871,0.002899871
+selected_ci.py,519,make_rdm2s,__init__.py,96,_xla_gc_callback,2,3.8823000000000004e-05,3.8823000000000004e-05,0.002899871,0.002899871
+configuration_recovery.py,59,recover_configurations,__init__.py,96,_xla_gc_callback,942,0.002213071,0.002213071,0.002899871,0.002899871
+selected_ci.py,758,contract_2e,__init__.py,96,_xla_gc_callback,6,9.567500000000001e-05,9.567500000000001e-05,0.002899871,0.002899871
+_stride_tricks_impl.py,354,<genexpr>,__init__.py,96,_xla_gc_callback,2,1.2724e-05,1.2724e-05,0.002899871,0.002899871
+__init__.py,517,cast,__init__.py,96,_xla_gc_callback,4,3.8034e-05,3.8034e-05,0.002899871,0.002899871
+~,0,<built-in method time.sleep>,direct_spin1.py,926,<lambda>,3,1.8808e-05,50.656860128000005,0.0008994890000000001,1605.024979472
+linalg_helper.py,291,davidson1,direct_spin1.py,926,<lambda>,87,0.000880681,1554.3681193440002,0.0008994890000000001,1605.024979472
+~,0,<built-in method time.sleep>,selected_ci.py,926,_as_SCIvector,85,0.000240942,0.0014676700000000001,0.000533136,0.003148231
+selected_ci.py,48,contract_2e,selected_ci.py,926,_as_SCIvector,5,9.753000000000001e-06,7.496400000000001e-05,0.000533136,0.003148231
+selected_ci.py,313,kernel_fixed_space,selected_ci.py,926,_as_SCIvector,15,2.6781000000000003e-05,0.000156514,0.000533136,0.003148231
+selected_ci.py,769,get_init_guess,selected_ci.py,926,_as_SCIvector,15,3.508e-05,0.00015340900000000002,0.000533136,0.003148231
+selected_ci.py,346,hop,selected_ci.py,926,_as_SCIvector,90,0.00022058,0.0012956740000000001,0.000533136,0.003148231
+selected_ci.py,812,make_rdm1s,selected_ci.py,931,_as_SCIvector_if_not,30,2.8563e-05,5.8265000000000005e-05,4.6174e-05,9.538600000000001e-05
+selected_ci.py,830,make_rdm2,selected_ci.py,931,_as_SCIvector_if_not,15,1.7611e-05,3.7121e-05,4.6174e-05,9.538600000000001e-05
+selected_ci.py,48,contract_2e,selected_ci.py,893,_unpack,90,0.000557048,0.0010676490000000002,0.0008498500000000001,0.001612907
+selected_ci.py,289,make_hdiag,selected_ci.py,893,_unpack,15,8.081100000000001e-05,0.00019718400000000001,0.0008498500000000001,0.001612907
+selected_ci.py,313,kernel_fixed_space,selected_ci.py,893,_unpack,15,4.3440000000000004e-05,7.1321e-05,0.0008498500000000001,0.001612907
+selected_ci.py,519,make_rdm2s,selected_ci.py,893,_unpack,15,5.7502000000000006e-05,9.4436e-05,0.0008498500000000001,0.001612907
+selected_ci.py,484,make_rdm1s,selected_ci.py,893,_unpack,30,0.000111049,0.000182317,0.0008498500000000001,0.001612907
+selected_ci.py,812,make_rdm1s,selected_ci.py,484,make_rdm1s,30,0.000719456,0.573875208,0.000719456,0.573875208
+selected_ci.py,903,_all_linkstr_index,selected_ci.py,189,cre_des_linkstr_tril,30,7.800500000000001e-05,0.057791671,7.800500000000001e-05,0.057791671
+selected_ci.py,903,_all_linkstr_index,selected_ci.py,230,des_des_linkstr_tril,30,0.000277965,0.47673820800000005,0.000277965,0.47673820800000005
+~,0,<built-in method time.sleep>,selected_ci.py,350,<lambda>,3,0.0030389130000000003,0.0030389130000000003,0.107549077,0.107549077
+linalg_helper.py,291,davidson1,selected_ci.py,350,<lambda>,72,0.104510164,0.104510164,0.107549077,0.107549077
+fermion.py,476,solve_sci,selected_ci.py,739,__init__,15,6.537200000000001e-05,0.000154413,6.537200000000001e-05,0.000154413
+fermion.py,476,solve_sci,selected_ci.py,818,make_rdm1,15,0.000535292,0.28123253400000003,0.000535292,0.28123253400000003
+~,0,<method 'reshape' of 'numpy.ndarray' objects>,selected_ci.py,914,__array_finalize__,195,0.0005540850000000001,0.0007707640000000001,0.001508669,0.0019197130000000002
+~,0,<method 'view' of 'numpy.ndarray' objects>,selected_ci.py,914,__array_finalize__,210,0.0009545840000000001,0.001148949,0.001508669,0.0019197130000000002
+_decomp.py,284,eigh,_misc.py,181,_datacopied,90,4.6144000000000004e-05,4.6144000000000004e-05,4.6144000000000004e-05,4.6144000000000004e-05
+lapack.py,1025,_compute_lwork,lapack.py,1055,<genexpr>,270,0.0004928020000000001,0.0014493210000000002,0.0004928020000000001,0.0014493210000000002
+selected_ci.py,313,kernel_fixed_space,logger.py,219,new_logger,15,0.000108307,0.000344565,0.000108307,0.000344565
+_decomp.py,284,eigh,blas.py,395,getter,90,0.000596356,0.0010729840000000001,0.000596356,0.0010729840000000001
+_decomp.py,284,eigh,lapack.py,1025,_compute_lwork,90,0.00242962,0.0043310430000000006,0.00242962,0.0043310430000000006
+selected_ci.py,313,kernel_fixed_space,misc.py,677,check_sanity,15,0.00026498600000000004,0.000879181,0.00026498600000000004,0.000879181
+_util.py,410,_asarray_validated,core.py,6607,isMaskedArray,90,0.00012390100000000002,0.00016692,0.00012390100000000002,0.00016692
+~,0,<method 'run' of '_contextvars.Context' objects>,asyncio.py,200,_handle_events,2,7.472000000000001e-06,0.001999041,7.472000000000001e-06,0.001999041
+ioloop.py,596,call_later,asyncio.py,210,call_at,1,8.926e-06,4.8664e-05,8.926e-06,4.8664e-05
+_twodim_base_impl.py,888,tril_indices,_twodim_base_impl.py,968,<genexpr>,270,0.003341323,0.010560058,0.003341323,0.010560058
+linalg_helper.py,1409,_qr,_linalg.py,493,inv,15,0.0008959230000000001,0.001597431,0.0008959230000000001,0.001597431
+_stride_tricks_impl.py,349,_broadcast_to,_function_base_impl.py,343,iterable,180,0.00020446,0.000319048,0.00020446,0.000319048
+configuration_recovery.py,59,recover_configurations,_function_base_impl.py,245,_flip_dispatcher,4,1.024e-06,1.024e-06,1.024e-06,1.024e-06
+~,0,<method 'poll' of 'select.epoll' objects>,_function_base_impl.py,1320,_diff_dispatcher,1,9.740000000000001e-07,9.740000000000001e-07,9.477000000000001e-06,9.477000000000001e-06
+_arraysetops_impl.py,342,_unique1d,_function_base_impl.py,1320,_diff_dispatcher,30,8.503e-06,8.503e-06,9.477000000000001e-06,9.477000000000001e-06
+~,0,<built-in method time.sleep>,_arraysetops_impl.py,139,_unique_dispatcher,410,0.00010762400000000001,0.00010762400000000001,0.351068892,0.351068892
+subsampling.py,147,subsample,_arraysetops_impl.py,139,_unique_dispatcher,15,5.927e-06,5.927e-06,0.351068892,0.351068892
+fermion.py,149,diagonalize_fermionic_hamiltonian,_arraysetops_impl.py,139,_unique_dispatcher,42,8.771000000000001e-06,8.771000000000001e-06,0.351068892,0.351068892
+configuration_recovery.py,181,_bipartite_bitstring_correcting,_arraysetops_impl.py,139,_unique_dispatcher,1557463,0.35094278100000004,0.35094278100000004,0.351068892,0.351068892
+fermion.py,428,_unique_with_order_preserved,_arraysetops_impl.py,139,_unique_dispatcher,20,3.789e-06,3.789e-06,0.351068892,0.351068892
+~,0,<method 'poll' of 'select.epoll' objects>,fromnumeric.py,1959,nonzero,1,7.658e-06,0.00016504100000000002,3.6902e-05,0.000313802
+_arraysetops_impl.py,342,_unique1d,fromnumeric.py,1959,nonzero,30,2.9244000000000003e-05,0.00014876100000000002,3.6902e-05,0.000313802
+direct_spin1.py,549,_get_init_guess,fromnumeric.py,824,_argpartition_dispatcher,15,9.652e-06,9.652e-06,9.652e-06,9.652e-06
+fermion.py,149,diagonalize_fermionic_hamiltonian,fromnumeric.py,1081,_argsort_dispatcher,25,8.509000000000001e-06,8.509000000000001e-06,8.509000000000001e-06,8.509000000000001e-06
+~,0,<built-in method time.sleep>,fromnumeric.py,1204,_argmax_dispatcher,4,1.816e-06,1.816e-06,6.1122e-05,6.1122e-05
+linalg_helper.py,1466,_sort_elast,fromnumeric.py,1204,_argmax_dispatcher,75,2.0337000000000002e-05,2.0337000000000002e-05,6.1122e-05,6.1122e-05
+linalg_helper.py,291,davidson1,fromnumeric.py,1204,_argmax_dispatcher,86,3.8969e-05,3.8969e-05,6.1122e-05,6.1122e-05
+fermion.py,149,diagonalize_fermionic_hamiltonian,fromnumeric.py,1398,_searchsorted_dispatcher,5,3.921e-06,3.921e-06,3.921e-06,3.921e-06
+fermion.py,476,solve_sci,fromnumeric.py,1635,_diagonal_dispatcher,30,1.2497e-05,1.2497e-05,1.2497e-05,1.2497e-05
+~,0,<method 'poll' of 'select.epoll' objects>,fromnumeric.py,1955,_nonzero_dispatcher,1,7.660000000000001e-07,7.660000000000001e-07,6.581e-06,6.581e-06
+_arraysetops_impl.py,342,_unique1d,fromnumeric.py,1955,_nonzero_dispatcher,30,5.815e-06,5.815e-06,6.581e-06,6.581e-06
+~,0,<built-in method time.sleep>,fromnumeric.py,2250,_sum_dispatcher,187,4.3888000000000004e-05,4.3888000000000004e-05,0.49255815100000006,0.49255815100000006
+subsampling.py,96,postselect_by_hamming_right_and_left,fromnumeric.py,2250,_sum_dispatcher,3,9.82e-07,9.82e-07,0.49255815100000006,0.49255815100000006
+configuration_recovery.py,59,recover_configurations,fromnumeric.py,2250,_sum_dispatcher,1,6.44e-07,6.44e-07,0.49255815100000006,0.49255815100000006
+fermion.py,149,diagonalize_fermionic_hamiltonian,fromnumeric.py,2250,_sum_dispatcher,10,3.996e-06,3.996e-06,0.49255815100000006,0.49255815100000006
+configuration_recovery.py,181,_bipartite_bitstring_correcting,fromnumeric.py,2250,_sum_dispatcher,2394424,0.492508641,0.492508641,0.49255815100000006,0.49255815100000006
+linalg_helper.py,1466,_sort_elast,fromnumeric.py,2395,_any_dispatcher,75,2.1225e-05,2.1225e-05,2.1225e-05,2.1225e-05
+~,0,<built-in method time.sleep>,fromnumeric.py,2605,_cumsum_dispatcher,352,0.000323432,0.000323432,0.377153202,0.377153202
+subsampling.py,147,subsample,fromnumeric.py,2605,_cumsum_dispatcher,15,4.999e-06,4.999e-06,0.377153202,0.377153202
+configuration_recovery.py,181,_bipartite_bitstring_correcting,fromnumeric.py,2605,_cumsum_dispatcher,1557520,0.376824771,0.376824771,0.377153202,0.377153202
+~,0,<built-in method time.sleep>,fromnumeric.py,3063,_prod_dispatcher,92,2.5832000000000003e-05,2.5832000000000003e-05,0.21739559,0.21739559
+_arraysetops_impl.py,144,unique,fromnumeric.py,3063,_prod_dispatcher,1,2.1100000000000002e-07,2.1100000000000002e-07,0.21739559,0.21739559
+subsampling.py,147,subsample,fromnumeric.py,3063,_prod_dispatcher,12,7.537000000000001e-06,7.537000000000001e-06,0.21739559,0.21739559
+configuration_recovery.py,181,_bipartite_bitstring_correcting,fromnumeric.py,3063,_prod_dispatcher,794516,0.21736201000000002,0.21736201000000002,0.21739559,0.21739559
+~,0,<built-in method time.sleep>,einsumfunc.py,1049,_einsum_dispatcher,340,0.00041003800000000005,0.00041003800000000005,0.001149587,0.001149587
+linalg_helper.py,1432,_outprod_to_subspace,einsumfunc.py,1049,_einsum_dispatcher,900,0.000533815,0.000533815,0.001149587,0.001149587
+direct_spin1.py,178,absorb_h1e,einsumfunc.py,1049,_einsum_dispatcher,60,3.8903000000000003e-05,3.8903000000000003e-05,0.001149587,0.001149587
+selected_ci.py,48,contract_2e,einsumfunc.py,1049,_einsum_dispatcher,20,2.5312e-05,2.5312e-05,0.001149587,0.001149587
+selected_ci.py,289,make_hdiag,einsumfunc.py,1049,_einsum_dispatcher,120,5.3824000000000005e-05,5.3824000000000005e-05,0.001149587,0.001149587
+fermion.py,476,solve_sci,einsumfunc.py,1049,_einsum_dispatcher,150,8.7695e-05,8.7695e-05,0.001149587,0.001149587
+~,0,<built-in method builtins.any>,_stride_tricks_impl.py,354,<genexpr>,540,0.0004902190000000001,0.000502943,0.0004902190000000001,0.000502943
+_function_base_impl.py,249,flip,_index_tricks_impl.py,778,__getitem__,4,2.5690000000000003e-06,2.5690000000000003e-06,2.5690000000000003e-06,2.5690000000000003e-06
+_linalg.py,493,inv,_linalg.py,123,_makearray,15,8.42e-05,0.00011174600000000001,8.42e-05,0.00011174600000000001
+~,0,<method 'view' of 'numpy.ndarray' objects>,_internal.py,537,_view_is_safe,2,1.1459e-05,1.1459e-05,1.1459e-05,1.1459e-05
+_decomp.py,284,eigh,_type_check_impl.py,265,iscomplexobj,90,0.000260188,0.00031544600000000004,0.000260188,0.00031544600000000004
+_decomp.py,284,eigh,_type_check_impl.py,168,_is_type_dispatcher,90,2.6002000000000003e-05,2.6002000000000003e-05,2.6002000000000003e-05,2.6002000000000003e-05
+_stride_tricks_impl.py,349,_broadcast_to,_stride_tricks_impl.py,30,_maybe_view_as_subclass,180,0.000179939,0.000179939,0.000179939,0.000179939
+selectors.py,451,select,_arraysetops_impl.py,327,reshape_uniq,1,1.1321e-05,6.5537e-05,1.1321e-05,6.5537e-05
+_twodim_base_impl.py,968,<genexpr>,_stride_tricks_impl.py,376,broadcast_to,180,0.000401307,0.007170801,0.000401307,0.007170801
+_util.py,410,_asarray_validated,_function_base_impl.py,584,asarray_chkfinite,90,0.003265514,0.005592218,0.003265514,0.005592218
+_twodim_base_impl.py,371,tri,_twodim_base_impl.py,34,_min_int,180,0.0005060560000000001,0.0010815220000000001,0.0005060560000000001,0.0010815220000000001
+_twodim_base_impl.py,968,<genexpr>,_stride_tricks_impl.py,372,_broadcast_to_dispatcher,180,4.7934000000000006e-05,4.7934000000000006e-05,4.7934000000000006e-05,4.7934000000000006e-05
+linalg_helper.py,1409,_qr,_linalg.py,489,_unary_dispatcher,15,8.769e-06,8.769e-06,8.769e-06,8.769e-06
+selectors.py,451,select,_arraysetops_impl.py,131,_unpack_tuple,1,1.043e-06,1.181e-06,0.766443835,1.202092571
+_arraysetops_impl.py,144,unique,_arraysetops_impl.py,131,_unpack_tuple,1557949,0.7664427920000001,1.20209139,0.766443835,1.202092571
+_linalg.py,148,_commonType,_linalg.py,128,isComplexType,15,1.0966000000000001e-05,1.586e-05,1.8346e-05,2.6852000000000003e-05
+_linalg.py,493,inv,_linalg.py,128,isComplexType,15,7.3800000000000005e-06,1.0992e-05,1.8346e-05,2.6852000000000003e-05
+_linalg.py,148,_commonType,_linalg.py,142,_realType,15,2.7758e-05,4.4813000000000006e-05,2.7758e-05,4.4813000000000006e-05
+_linalg.py,493,inv,_linalg.py,192,_assert_stacked_2d,15,3.9314000000000003e-05,3.9314000000000003e-05,3.9314000000000003e-05,3.9314000000000003e-05
+_linalg.py,493,inv,_linalg.py,198,_assert_stacked_square,15,2.9039e-05,2.9039e-05,2.9039e-05,2.9039e-05
+_twodim_base_impl.py,888,tril_indices,numeric.py,1736,indices,90,0.001338502,0.002601667,0.001338502,0.002601667
+~,0,<built-in method time.sleep>,fromnumeric.py,2255,sum,187,0.000423157,0.0023495350000000003,3.9514540030000003,18.613377292000003
+subsampling.py,96,postselect_by_hamming_right_and_left,fromnumeric.py,2255,sum,3,2.2230000000000002e-05,0.008993133,3.9514540030000003,18.613377292000003
+configuration_recovery.py,59,recover_configurations,fromnumeric.py,2255,sum,1,8.928e-06,0.000107566,3.9514540030000003,18.613377292000003
+fermion.py,149,diagonalize_fermionic_hamiltonian,fromnumeric.py,2255,sum,10,6.278200000000001e-05,0.000564094,3.9514540030000003,18.613377292000003
+configuration_recovery.py,181,_bipartite_bitstring_correcting,fromnumeric.py,2255,sum,2394424,3.9509369060000004,18.601362964,3.9514540030000003,18.613377292000003
+numerictypes.py,470,issubdtype,numerictypes.py,288,issubclass_,1589240,1.2732975050000002,2.293071265,1.2732975050000002,2.293071265
+linalg_helper.py,166,_fill_heff_hermitian,~,0,<method 'conj' of 'numpy.generic' objects>,273,0.004513537000000001,0.004513537000000001,0.004513537000000001,0.004513537000000001
+_linalg.py,493,inv,~,0,<method '__array_wrap__' of 'numpy.ndarray' objects>,15,1.5186000000000002e-05,1.5186000000000002e-05,1.5186000000000002e-05,1.5186000000000002e-05
+_function_base_impl.py,584,asarray_chkfinite,~,0,<method 'all' of 'numpy.ndarray' objects>,90,0.00037075400000000005,0.0021843070000000003,0.00037075400000000005,0.0021843070000000003
+fromnumeric.py,51,_wrapfunc,~,0,<method 'argmax' of 'numpy.ndarray' objects>,165,0.000769853,0.000769853,0.000769853,0.000769853
+fromnumeric.py,51,_wrapfunc,~,0,<method 'argpartition' of 'numpy.ndarray' objects>,15,0.013483579,0.013483579,0.013483579,0.013483579
+_arraysetops_impl.py,342,_unique1d,~,0,<method 'argsort' of 'numpy.ndarray' objects>,1557907,3.6971605000000003,3.6971605000000003,3.7593619670000002,3.7593619670000002
+fromnumeric.py,51,_wrapfunc,~,0,<method 'argsort' of 'numpy.ndarray' objects>,25,0.062201467,0.062201467,3.7593619670000002,3.7593619670000002
+~,0,<built-in method time.sleep>,~,0,<method 'astype' of 'numpy.ndarray' objects>,1,0.001248615,0.001248615,0.003154193,0.003154193
+subsampling.py,147,subsample,~,0,<method 'astype' of 'numpy.ndarray' objects>,13,0.001628712,0.001628712,0.003154193,0.003154193
+_linalg.py,493,inv,~,0,<method 'astype' of 'numpy.ndarray' objects>,15,5.3969000000000005e-05,5.3969000000000005e-05,0.003154193,0.003154193
+_twodim_base_impl.py,371,tri,~,0,<method 'astype' of 'numpy.ndarray' objects>,90,0.000222897,0.000222897,0.003154193,0.003154193
+~,0,<built-in method time.sleep>,~,0,<method 'conj' of 'numpy.ndarray' objects>,7,2.1408000000000002e-05,2.1408000000000002e-05,0.001723771,0.001723771
+linalg_helper.py,166,_fill_heff_hermitian,~,0,<method 'conj' of 'numpy.ndarray' objects>,363,0.00046661500000000003,0.00046661500000000003,0.001723771,0.001723771
+linalg_helper.py,1409,_qr,~,0,<method 'conj' of 'numpy.ndarray' objects>,15,3.9054e-05,3.9054e-05,0.001723771,0.001723771
+linalg_helper.py,1466,_sort_elast,~,0,<method 'conj' of 'numpy.ndarray' objects>,75,8.8613e-05,8.8613e-05,0.001723771,0.001723771
+linalg_helper.py,1490,_normalize_xt_,~,0,<method 'conj' of 'numpy.ndarray' objects>,348,0.0006120510000000001,0.0006120510000000001,0.001723771,0.001723771
+linalg_helper.py,291,davidson1,~,0,<method 'conj' of 'numpy.ndarray' objects>,158,0.0004960300000000001,0.0004960300000000001,0.001723771,0.001723771
+direct_spin1.py,178,absorb_h1e,~,0,<method 'copy' of 'numpy.ndarray' objects>,15,0.014532159000000001,0.014532159000000001,0.527170173,0.527170173
+configuration_recovery.py,181,_bipartite_bitstring_correcting,~,0,<method 'copy' of 'numpy.ndarray' objects>,400000,0.5126380140000001,0.5126380140000001,0.527170173,0.527170173
+fromnumeric.py,51,_wrapfunc,~,0,<method 'cumsum' of 'numpy.ndarray' objects>,1557887,6.069830427,6.069830427,6.069830427,6.069830427
+fromnumeric.py,1639,diagonal,~,0,<method 'diagonal' of 'numpy.ndarray' objects>,30,0.00017694000000000002,0.00017694000000000002,0.00017694000000000002,0.00017694000000000002
+_arraysetops_impl.py,342,_unique1d,~,0,<method 'flatten' of 'numpy.ndarray' objects>,1557950,1.6799271020000002,1.6799271020000002,1.6799428150000002,1.6799428150000002
+configuration_recovery.py,59,recover_configurations,~,0,<method 'flatten' of 'numpy.ndarray' objects>,4,1.5713e-05,1.5713e-05,1.6799428150000002,1.6799428150000002
+fromnumeric.py,51,_wrapfunc,~,0,<method 'nonzero' of 'numpy.ndarray' objects>,31,0.00020784400000000002,0.00020784400000000002,0.00020784400000000002,0.00020784400000000002
+direct_spin1.py,549,_get_init_guess,~,0,<method 'ravel' of 'numpy.ndarray' objects>,15,3.3627e-05,3.3627e-05,3.3627e-05,3.3627e-05
+~,0,<built-in method time.sleep>,~,0,<method 'reshape' of 'numpy.ndarray' objects>,85,0.001755917,0.001755917,0.004972418,0.005743182
+_arraysetops_impl.py,144,unique,~,0,<method 'reshape' of 'numpy.ndarray' objects>,1,3.4370000000000003e-06,3.4370000000000003e-06,0.004972418,0.005743182
+addons.py,60,restore,~,0,<method 'reshape' of 'numpy.ndarray' objects>,120,0.000605561,0.000605561,0.004972418,0.005743182
+cistring.py,113,_strs2occslst,~,0,<method 'reshape' of 'numpy.ndarray' objects>,60,8.5278e-05,8.5278e-05,0.004972418,0.005743182
+direct_spin1.py,549,_get_init_guess,~,0,<method 'reshape' of 'numpy.ndarray' objects>,15,0.00011408,0.00011408,0.004972418,0.005743182
+selected_ci.py,48,contract_2e,~,0,<method 'reshape' of 'numpy.ndarray' objects>,185,0.001149735,0.001721796,0.004972418,0.005743182
+selected_ci.py,313,kernel_fixed_space,~,0,<method 'reshape' of 'numpy.ndarray' objects>,15,8.054000000000001e-05,8.054000000000001e-05,0.004972418,0.005743182
+selected_ci.py,519,make_rdm2s,~,0,<method 'reshape' of 'numpy.ndarray' objects>,15,0.000176741,0.000253747,0.004972418,0.005743182
+fermion.py,149,diagonalize_fermionic_hamiltonian,~,0,<method 'reshape' of 'numpy.ndarray' objects>,5,5.0989e-05,5.0989e-05,0.004972418,0.005743182
+selected_ci.py,346,hop,~,0,<method 'reshape' of 'numpy.ndarray' objects>,90,0.000279504,0.000401201,0.004972418,0.005743182
+_arraysetops_impl.py,327,reshape_uniq,~,0,<method 'reshape' of 'numpy.ndarray' objects>,1,3.8100000000000004e-06,3.8100000000000004e-06,0.004972418,0.005743182
+numeric.py,1736,indices,~,0,<method 'reshape' of 'numpy.ndarray' objects>,180,0.000666826,0.000666826,0.004972418,0.005743182
+fromnumeric.py,51,_wrapfunc,~,0,<method 'searchsorted' of 'numpy.ndarray' objects>,5,0.000108843,0.000108843,0.000108843,0.000108843
+_arraysetops_impl.py,342,_unique1d,~,0,<method 'sort' of 'numpy.ndarray' objects>,43,0.47580381600000005,0.47580381600000005,0.476131952,0.476131952
+fermion.py,149,diagonalize_fermionic_hamiltonian,~,0,<method 'sort' of 'numpy.ndarray' objects>,30,0.000190662,0.000190662,0.476131952,0.476131952
+fermion.py,428,_unique_with_order_preserved,~,0,<method 'sort' of 'numpy.ndarray' objects>,20,0.000137474,0.000137474,0.476131952,0.476131952
+numeric.py,1437,moveaxis,~,0,<method 'transpose' of 'numpy.ndarray' objects>,2,6.324000000000001e-06,6.324000000000001e-06,0.000495086,0.000495086
+selected_ci.py,48,contract_2e,~,0,<method 'transpose' of 'numpy.ndarray' objects>,180,0.000328644,0.000328644,0.000495086,0.000495086
+selected_ci.py,568,make_rdm2,~,0,<method 'transpose' of 'numpy.ndarray' objects>,15,0.000160118,0.000160118,0.000495086,0.000495086
+_arraysetops_impl.py,144,unique,~,0,<method 'view' of 'numpy.ndarray' objects>,1,4.6659e-05,5.3711e-05,0.0016406670000000002,0.002801075
+cistring.py,113,_strs2occslst,~,0,<method 'view' of 'numpy.ndarray' objects>,30,5.9510000000000005e-05,5.9510000000000005e-05,0.0016406670000000002,0.002801075
+direct_spin1.py,549,_get_init_guess,~,0,<method 'view' of 'numpy.ndarray' objects>,15,5.8984e-05,5.8984e-05,0.0016406670000000002,0.002801075
+selected_ci.py,926,_as_SCIvector,~,0,<method 'view' of 'numpy.ndarray' objects>,210,0.001466146,0.002615095,0.0016406670000000002,0.002801075
+_arraysetops_impl.py,327,reshape_uniq,~,0,<method 'view' of 'numpy.ndarray' objects>,1,9.368e-06,1.3775000000000001e-05,0.0016406670000000002,0.002801075
+~,0,<built-in method time.sleep>,~,0,<built-in method numpy.array>,5,0.755731043,0.755731043,1.5121872250000001,1.5121872250000001
+_stride_tricks_impl.py,349,_broadcast_to,~,0,<built-in method numpy.array>,180,0.000189359,0.000189359,1.5121872250000001,1.5121872250000001
+linalg_helper.py,1409,_qr,~,0,<built-in method numpy.array>,15,0.006889233000000001,0.006889233000000001,1.5121872250000001,1.5121872250000001
+fermion.py,476,solve_sci,~,0,<built-in method numpy.array>,15,0.007284271,0.007284271,1.5121872250000001,1.5121872250000001
+configuration_recovery.py,59,recover_configurations,~,0,<built-in method numpy.array>,7,0.7420755450000001,0.7420755450000001,1.5121872250000001,1.5121872250000001
+fermion.py,149,diagonalize_fermionic_hamiltonian,~,0,<built-in method numpy.array>,4,1.7774e-05,1.7774e-05,1.5121872250000001,1.5121872250000001
+~,0,<built-in method time.sleep>,~,0,<built-in method numpy.asarray>,7,0.00026386700000000004,0.00026386700000000004,0.03158022,0.03158022
+_function_base_impl.py,249,flip,~,0,<built-in method numpy.asarray>,4,8.527e-06,8.527e-06,0.03158022,0.03158022
+linalg_helper.py,166,_fill_heff_hermitian,~,0,<built-in method numpy.asarray>,273,0.003172087,0.003172087,0.03158022,0.03158022
+numpy_helper.py,256,pack_tril,~,0,<built-in method numpy.asarray>,15,3.7912000000000006e-05,3.7912000000000006e-05,0.03158022,0.03158022
+numpy_helper.py,478,take_2d,~,0,<built-in method numpy.asarray>,270,0.0011361910000000002,0.0011361910000000002,0.03158022,0.03158022
+linalg_helper.py,1490,_normalize_xt_,~,0,<built-in method numpy.asarray>,279,0.00038478000000000004,0.00038478000000000004,0.03158022,0.03158022
+linalg_helper.py,291,davidson1,~,0,<built-in method numpy.asarray>,86,0.000250951,0.000250951,0.03158022,0.03158022
+linalg_helper.py,1432,_outprod_to_subspace,~,0,<built-in method numpy.asarray>,724,0.0016398180000000001,0.0016398180000000001,0.03158022,0.03158022
+_util.py,1203,wrapper,~,0,<built-in method numpy.asarray>,90,5.5472e-05,5.5472e-05,0.03158022,0.03158022
+addons.py,60,restore,~,0,<built-in method numpy.asarray>,240,0.00048564400000000003,0.00048564400000000003,0.03158022,0.03158022
+rdm.py,123,make_rdm12_spin1,~,0,<built-in method numpy.asarray>,30,0.000106439,0.000106439,0.03158022,0.03158022
+selected_ci.py,175,cre_des_linkstr,~,0,<built-in method numpy.asarray>,120,0.000469489,0.000469489,0.03158022,0.03158022
+rdm.py,91,make_rdm1_spin1,~,0,<built-in method numpy.asarray>,120,0.00046538300000000004,0.00046538300000000004,0.03158022,0.03158022
+cistring.py,113,_strs2occslst,~,0,<built-in method numpy.asarray>,60,0.0005061120000000001,0.0005061120000000001,0.03158022,0.03158022
+selected_ci.py,194,des_des_linkstr,~,0,<built-in method numpy.asarray>,179,0.021605683,0.021605683,0.03158022,0.03158022
+selected_ci.py,289,make_hdiag,~,0,<built-in method numpy.asarray>,45,0.000670979,0.000670979,0.03158022,0.03158022
+ipython-input-3795278461.py,92,work_fn,~,0,<built-in method numpy.asarray>,1,8.399e-06,8.399e-06,0.03158022,0.03158022
+fermion.py,66,__post_init__,~,0,<built-in method numpy.asarray>,15,1.1556e-05,1.1556e-05,0.03158022,0.03158022
+selected_ci.py,893,_unpack,~,0,<built-in method numpy.asarray>,330,0.000144031,0.000144031,0.03158022,0.03158022
+_linalg.py,123,_makearray,~,0,<built-in method numpy.asarray>,15,1.4503000000000002e-05,1.4503000000000002e-05,0.03158022,0.03158022
+_function_base_impl.py,584,asarray_chkfinite,~,0,<built-in method numpy.asarray>,90,0.000142397,0.000142397,0.03158022,0.03158022
+_arraysetops_impl.py,144,unique,~,0,<built-in method numpy.asanyarray>,1557950,0.37315067300000004,0.37315067300000004,0.6360183060000001,0.6360183060000001
+_arraysetops_impl.py,342,_unique1d,~,0,<built-in method numpy.asanyarray>,1557950,0.262826128,0.262826128,0.6360183060000001,0.6360183060000001
+_function_base_impl.py,1324,diff,~,0,<built-in method numpy.asanyarray>,31,6.24e-06,6.24e-06,0.6360183060000001,0.6360183060000001
+fromnumeric.py,1639,diagonal,~,0,<built-in method numpy.asanyarray>,30,3.5265e-05,3.5265e-05,0.6360183060000001,0.6360183060000001
+_arraysetops_impl.py,144,unique,~,0,<built-in method numpy.ascontiguousarray>,1,0.004733431000000001,0.004733431000000001,0.004733431000000001,0.004733431000000001
+subsampling.py,147,subsample,~,0,<built-in method numpy.arange>,13,0.001145781,0.001145781,0.004467284,0.004467284
+numeric.py,1736,indices,~,0,<built-in method numpy.arange>,180,0.000483839,0.000483839,0.004467284,0.004467284
+_twodim_base_impl.py,371,tri,~,0,<built-in method numpy.arange>,180,0.002837664,0.002837664,0.004467284,0.004467284
+~,0,<built-in method time.sleep>,~,0,<built-in method numpy.zeros>,19,0.006561073000000001,0.006561073000000001,0.802107876,0.802107876
+linalg_helper.py,291,davidson1,~,0,<built-in method numpy.zeros>,189,0.000630157,0.000630157,0.802107876,0.802107876
+selected_ci.py,175,cre_des_linkstr,~,0,<built-in method numpy.zeros>,120,0.014112206,0.014112206,0.802107876,0.802107876
+direct_spin1.py,549,_get_init_guess,~,0,<built-in method numpy.zeros>,15,0.007148133,0.007148133,0.802107876,0.802107876
+selected_ci.py,194,des_des_linkstr,~,0,<built-in method numpy.zeros>,59,0.18411907600000002,0.18411907600000002,0.802107876,0.802107876
+selected_ci.py,48,contract_2e,~,0,<built-in method numpy.zeros>,90,0.04372597,0.04372597,0.802107876,0.802107876
+selected_ci.py,519,make_rdm2s,~,0,<built-in method numpy.zeros>,18,0.005907779,0.005907779,0.802107876,0.802107876
+configuration_recovery.py,181,_bipartite_bitstring_correcting,~,0,<built-in method numpy.zeros>,800000,0.539754838,0.539754838,0.802107876,0.802107876
+counts.py,186,bitstring_matrix_to_integers,~,0,<built-in method numpy.zeros>,30,7.1827e-05,7.1827e-05,0.802107876,0.802107876
+_twodim_base_impl.py,159,eye,~,0,<built-in method numpy.zeros>,15,7.6817e-05,7.6817e-05,0.802107876,0.802107876
+numeric.py,460,count_nonzero,~,0,<built-in method numpy._core._multiarray_umath.count_nonzero>,794620,0.361236439,0.361236439,0.361236439,0.361236439
+socket.py,632,send,~,0,<built-in method numpy.empty>,1,1.8608000000000002e-05,1.8608000000000002e-05,2.3978294300000003,2.3978294300000003
+_arraysetops_impl.py,342,_unique1d,~,0,<built-in method numpy.empty>,1557949,2.3947907560000004,2.3947907560000004,2.3978294300000003,2.3978294300000003
+linalg_helper.py,291,davidson1,~,0,<built-in method numpy.empty>,15,0.000140046,0.000140046,2.3978294300000003,2.3978294300000003
+addons.py,190,_convert,~,0,<built-in method numpy.empty>,120,0.0008404700000000001,0.0008404700000000001,2.3978294300000003,2.3978294300000003
+rdm.py,123,make_rdm12_spin1,~,0,<built-in method numpy.empty>,30,0.00023723800000000002,0.00023723800000000002,2.3978294300000003,2.3978294300000003
+rdm.py,91,make_rdm1_spin1,~,0,<built-in method numpy.empty>,60,0.00045550600000000005,0.00045550600000000005,2.3978294300000003,2.3978294300000003
+selected_ci.py,194,des_des_linkstr,~,0,<built-in method numpy.empty>,120,0.0011249790000000001,0.0011249790000000001,2.3978294300000003,2.3978294300000003
+selected_ci.py,289,make_hdiag,~,0,<built-in method numpy.empty>,15,0.00022182700000000002,0.00022182700000000002,2.3978294300000003,2.3978294300000003
+einsumfunc.py,1057,einsum,~,0,<built-in method numpy._core._multiarray_umath.c_einsum>,345,0.18407546100000002,0.18407546100000002,0.18407546100000002,0.18407546100000002
+_internal.py,448,_promote_fields,~,0,<built-in method numpy.promote_types>,52,1.1581000000000001e-05,1.1581000000000001e-05,1.1581000000000001e-05,1.1581000000000001e-05
+numeric.py,1373,normalize_axis_tuple,~,0,<built-in method numpy.lib.array_utils.normalize_axis_index>,4,3.306e-06,3.306e-06,1.7747e-05,1.7747e-05
+_function_base_impl.py,1324,diff,~,0,<built-in method numpy.lib.array_utils.normalize_axis_index>,31,1.4441000000000001e-05,1.4441000000000001e-05,1.7747e-05,1.7747e-05
+_ufunc_config.py,410,__enter__,~,0,<built-in method numpy._core._multiarray_umath._make_extobj>,15,5.7747e-05,5.7747e-05,6.051e-05,6.051e-05
+_ufunc_config.py,434,inner,~,0,<built-in method numpy._core._multiarray_umath._make_extobj>,1,2.763e-06,2.763e-06,6.051e-05,6.051e-05
+_stride_tricks_impl.py,349,_broadcast_to,~,0,<method '__exit__' of 'numpy.nditer' objects>,180,0.00015001,0.00015001,0.00015001,0.00015001
+fromnumeric.py,69,_wrapreduction,~,0,<method 'reduce' of 'numpy.ufunc' objects>,3189246,11.839968956,11.839968956,11.842410387000001,11.842410387000001
+_methods.py,67,_all,~,0,<method 'reduce' of 'numpy.ufunc' objects>,90,0.0016300790000000002,0.0016300790000000002,11.842410387000001,11.842410387000001
+fromnumeric.py,89,_wrapreduction_any_all,~,0,<method 'reduce' of 'numpy.ufunc' objects>,75,0.0008113520000000001,0.0008113520000000001,11.842410387000001,11.842410387000001
+_twodim_base_impl.py,371,tri,~,0,<method 'outer' of 'numpy.ufunc' objects>,90,0.002520356,0.002520356,0.002520356,0.002520356
+_twodim_base_impl.py,34,_min_int,getlimits.py,699,min,180,0.000192291,0.000192291,0.000192291,0.000192291
+~,0,<built-in method time.sleep>,multiarray.py,361,where,92,2.725e-05,2.725e-05,0.202061406,0.202061406
+cistring.py,113,_strs2occslst,multiarray.py,361,where,30,8.864e-06,8.864e-06,0.202061406,0.202061406
+configuration_recovery.py,181,_bipartite_bitstring_correcting,multiarray.py,361,where,794516,0.20202529200000002,0.20202529200000002,0.202061406,0.202061406
+~,0,<built-in method time.sleep>,fromnumeric.py,1208,argmax,4,3.406e-05,8.2608e-05,0.001390958,0.002867582
+linalg_helper.py,1466,_sort_elast,fromnumeric.py,1208,argmax,75,0.000628017,0.0011598320000000002,0.001390958,0.002867582
+linalg_helper.py,291,davidson1,fromnumeric.py,1208,argmax,86,0.000728881,0.001625142,0.001390958,0.002867582
+~,0,<method 'all' of 'numpy.ndarray' objects>,_methods.py,67,_all,90,0.000183474,0.001813553,0.000183474,0.001813553
+~,0,<built-in method time.sleep>,numerictypes.py,470,issubdtype,92,0.00024113900000000002,0.0006871020000000001,1.8127712480000002,4.248605027
+subsampling.py,147,subsample,numerictypes.py,470,issubdtype,12,6.464200000000001e-05,0.000173214,1.8127712480000002,4.248605027
+configuration_recovery.py,181,_bipartite_bitstring_correcting,numerictypes.py,470,issubdtype,794516,1.8124654670000002,4.247744711,1.8127712480000002,4.248605027
+fermion.py,476,solve_sci,fromnumeric.py,1639,diagonal,30,0.000153439,0.000396464,0.000153439,0.000396464
+~,0,<method 'poll' of 'select.epoll' objects>,multiarray.py,161,concatenate,1,3.53e-07,3.53e-07,4.1481000000000005e-05,4.1481000000000005e-05
+_arraysetops_impl.py,342,_unique1d,multiarray.py,161,concatenate,30,6.676e-06,6.676e-06,4.1481000000000005e-05,4.1481000000000005e-05
+fermion.py,149,diagonalize_fermionic_hamiltonian,multiarray.py,161,concatenate,56,3.4452e-05,3.4452e-05,4.1481000000000005e-05,4.1481000000000005e-05
+linalg_helper.py,1466,_sort_elast,fromnumeric.py,2400,any,75,0.00030220000000000003,0.001605517,0.00030220000000000003,0.001605517
+~,0,<built-in method time.sleep>,fromnumeric.py,3068,prod,92,0.000190038,0.001259429,1.290264227,8.921925439
+_arraysetops_impl.py,144,unique,fromnumeric.py,3068,prod,1,5.933000000000001e-06,6.432600000000001e-05,1.290264227,8.921925439
+subsampling.py,147,subsample,fromnumeric.py,3068,prod,12,6.4683e-05,0.00036914900000000004,1.290264227,8.921925439
+configuration_recovery.py,181,_bipartite_bitstring_correcting,fromnumeric.py,3068,prod,794516,1.2900035730000001,8.920232535,1.290264227,8.921925439
+_linalg.py,493,inv,_ufunc_config.py,426,__exit__,15,2.8221000000000003e-05,6.250900000000001e-05,2.8221000000000003e-05,6.250900000000001e-05
+direct_spin1.py,549,_get_init_guess,fromnumeric.py,828,argpartition,15,0.000107311,0.013741488000000001,0.000107311,0.013741488000000001
+fermion.py,149,diagonalize_fermionic_hamiltonian,fromnumeric.py,1085,argsort,25,8.1742e-05,0.062393633000000004,8.1742e-05,0.062393633000000004
+fermion.py,149,diagonalize_fermionic_hamiltonian,fromnumeric.py,1402,searchsorted,5,1.8118000000000002e-05,0.00016442300000000002,1.8118000000000002e-05,0.00016442300000000002
+~,0,<built-in method time.sleep>,fromnumeric.py,2609,cumsum,352,0.00052588,0.002922633,1.894730239,10.178657631
+subsampling.py,147,subsample,fromnumeric.py,2609,cumsum,15,5.3004e-05,0.006056296,1.894730239,10.178657631
+configuration_recovery.py,181,_bipartite_bitstring_correcting,fromnumeric.py,2609,cumsum,1557520,1.8941513550000002,10.169678702,1.894730239,10.178657631
+linalg_helper.py,291,davidson1,multiarray.py,678,result_type,15,4.2120000000000005e-06,4.2120000000000005e-06,4.2120000000000005e-06,4.2120000000000005e-06
+~,0,<built-in method time.sleep>,multiarray.py,750,dot,7,3.293e-06,3.293e-06,0.00045284000000000004,0.00045284000000000004
+linalg_helper.py,166,_fill_heff_hermitian,multiarray.py,750,dot,363,0.000125661,0.000125661,0.00045284000000000004,0.00045284000000000004
+linalg_helper.py,1409,_qr,multiarray.py,750,dot,15,6.826e-06,6.826e-06,0.00045284000000000004,0.00045284000000000004
+linalg_helper.py,1466,_sort_elast,multiarray.py,750,dot,75,2.1838e-05,2.1838e-05,0.00045284000000000004,0.00045284000000000004
+linalg_helper.py,1490,_normalize_xt_,multiarray.py,750,dot,348,0.00017170800000000002,0.00017170800000000002,0.00045284000000000004,0.00045284000000000004
+linalg_helper.py,291,davidson1,multiarray.py,750,dot,158,0.000123514,0.000123514,0.00045284000000000004,0.00045284000000000004
+ipython-input-3795278461.py,92,work_fn,multiarray.py,1185,packbits,1,2.86e-07,2.86e-07,2.86e-07,2.86e-07
+counts.py,45,bit_array_to_arrays,multiarray.py,1243,unpackbits,1,2.67e-07,2.67e-07,2.67e-07,2.67e-07
+~,0,<built-in method time.sleep>,numeric.py,456,_count_nonzero_dispatcher,92,2.0929000000000002e-05,2.0929000000000002e-05,0.179250609,0.179250609
+subsampling.py,147,subsample,numeric.py,456,_count_nonzero_dispatcher,12,3.8050000000000004e-06,3.8050000000000004e-06,0.179250609,0.179250609
+configuration_recovery.py,181,_bipartite_bitstring_correcting,numeric.py,456,_count_nonzero_dispatcher,794516,0.179225875,0.179225875,0.179250609,0.179250609
+_arraysetops_impl.py,144,unique,numeric.py,1433,_moveaxis_dispatcher,1,2.9300000000000004e-07,2.9300000000000004e-07,4.78e-07,4.78e-07
+_arraysetops_impl.py,327,reshape_uniq,numeric.py,1433,_moveaxis_dispatcher,1,1.85e-07,1.85e-07,4.78e-07,4.78e-07
+_linalg.py,493,inv,_ufunc_config.py,400,__init__,15,1.1701e-05,1.1701e-05,1.1701e-05,1.1701e-05
+_twodim_base_impl.py,888,tril_indices,_twodim_base_impl.py,371,tri,90,0.001960232,0.008622671,0.001960232,0.008622671
+linalg_helper.py,1409,_qr,_twodim_base_impl.py,159,eye,15,0.000344889,0.000440138,0.000344889,0.000440138
+fromnumeric.py,2400,any,fromnumeric.py,89,_wrapreduction_any_all,75,0.000437817,0.001303317,0.000437817,0.001303317
+_twodim_base_impl.py,34,_min_int,getlimits.py,712,max,180,0.00038317500000000003,0.00038317500000000003,0.00038317500000000003,0.00038317500000000003
+fromnumeric.py,1959,nonzero,fromnumeric.py,51,_wrapfunc,31,5.0596e-05,0.0002769,1.7071435380000002,8.361773289
+fromnumeric.py,1208,argmax,fromnumeric.py,51,_wrapfunc,165,0.0005290690000000001,0.0014766240000000002,1.7071435380000002,8.361773289
+fromnumeric.py,828,argpartition,fromnumeric.py,51,_wrapfunc,15,0.000127415,0.013634177,1.7071435380000002,8.361773289
+fromnumeric.py,1085,argsort,fromnumeric.py,51,_wrapfunc,25,9.1909e-05,0.062311891,1.7071435380000002,8.361773289
+fromnumeric.py,1402,searchsorted,fromnumeric.py,51,_wrapfunc,5,2.994e-05,0.000146305,1.7071435380000002,8.361773289
+fromnumeric.py,2609,cumsum,fromnumeric.py,51,_wrapfunc,1557887,1.706314609,8.283927392,1.7071435380000002,8.361773289
+~,0,<built-in method time.sleep>,_internal.py,278,data_as,816,0.001143125,0.004443402,0.007923744,0.027664391000000003
+numpy_helper.py,574,transpose,_internal.py,278,data_as,390,0.000882023,0.003695709,0.007923744,0.027664391000000003
+numpy_helper.py,256,pack_tril,_internal.py,278,data_as,30,6.9409e-05,0.000258407,0.007923744,0.027664391000000003
+numpy_helper.py,478,take_2d,_internal.py,278,data_as,360,0.000749635,0.0027652880000000003,0.007923744,0.027664391000000003
+addons.py,190,_convert,_internal.py,278,data_as,240,0.0026543720000000003,0.006843535,0.007923744,0.027664391000000003
+rdm.py,123,make_rdm12_spin1,_internal.py,278,data_as,90,0.000107817,0.000426414,0.007923744,0.027664391000000003
+selected_ci.py,175,cre_des_linkstr,_internal.py,278,data_as,240,0.000410252,0.001755976,0.007923744,0.027664391000000003
+rdm.py,91,make_rdm1_spin1,_internal.py,278,data_as,300,0.00038187000000000003,0.001438498,0.007923744,0.027664391000000003
+selected_ci.py,194,des_des_linkstr,_internal.py,278,data_as,417,0.00062861,0.002654945,0.007923744,0.027664391000000003
+selected_ci.py,48,contract_2e,_internal.py,278,data_as,405,0.0006753880000000001,0.002490196,0.007923744,0.027664391000000003
+selected_ci.py,289,make_hdiag,_internal.py,278,data_as,90,0.00010429900000000001,0.00042767900000000004,0.007923744,0.027664391000000003
+selected_ci.py,519,make_rdm2s,_internal.py,278,data_as,72,0.00011694400000000001,0.000464342,0.007923744,0.027664391000000003
+selected_ci.py,48,contract_2e,_twodim_base_impl.py,888,tril_indices,90,0.005834903000000001,0.027619299000000003,0.005834903000000001,0.027619299000000003
+_internal.py,278,data_as,__init__.py,517,cast,3450,0.019702613,0.019740647,0.019702613,0.019740647
+iostream.py,577,_flush_buffer,iostream.py,584,_rotate_buffer,1,1.618e-05,1.7056e-05,1.618e-05,1.7056e-05
+iostream.py,221,_really_send,iostream.py,165,_check_mp_mode,1,1.655e-06,3.944e-06,1.655e-06,3.944e-06
+iostream.py,165,_check_mp_mode,iostream.py,162,_is_master_process,1,1.294e-06,2.289e-06,1.294e-06,2.289e-06
+iostream.py,107,_handle_event,iostream.py,219,<lambda>,1,6.6700000000000005e-06,0.0013784840000000001,6.6700000000000005e-06,0.0013784840000000001
+session.py,751,send,iostream.py,214,send_multipart,1,4.1660000000000004e-06,7.302e-05,4.1660000000000004e-06,7.302e-05
+iostream.py,107,_handle_event,iostream.py,466,_schedule_in_thread,1,5.247e-06,6.3398e-05,5.247e-06,6.3398e-05
+iostream.py,495,_flush,iostream.py,577,_flush_buffer,1,7.667000000000001e-06,2.6371000000000002e-05,7.667000000000001e-06,2.6371000000000002e-05
+iostream.py,221,_really_send,iostream.py,198,closed,1,3.97e-07,3.97e-07,3.97e-07,3.97e-07
+iostream.py,214,send_multipart,iostream.py,202,schedule,1,1.2404e-05,6.8854e-05,1.2404e-05,6.8854e-05
+iostream.py,219,<lambda>,iostream.py,221,_really_send,1,1.3387e-05,0.001371814,1.3387e-05,0.001371814
+zmqstream.py,654,_rebuild_io_state,zmqstream.py,533,sending,2,3.423e-06,2.0249000000000002e-05,3.423e-06,2.0249000000000002e-05
+zmqstream.py,615,_handle_recv,zmqstream.py,547,_run_callback,2,1.6187e-05,0.001519261,1.6187e-05,0.001519261
+zmqstream.py,574,_handle_events,zmqstream.py,654,_rebuild_io_state,2,1.5510000000000002e-05,0.00012873500000000002,1.5510000000000002e-05,0.00012873500000000002
+zmqstream.py,547,_run_callback,iostream.py,107,_handle_event,2,1.432e-05,0.0014578780000000001,1.432e-05,0.0014578780000000001
+zmqstream.py,654,_rebuild_io_state,zmqstream.py,677,_update_handler,2,6.742000000000001e-06,7.5698e-05,6.742000000000001e-06,7.5698e-05
+jsonutil.py,108,json_default,jsonutil.py,39,_ensure_tzinfo,2,1.7470000000000002e-06,1.7470000000000002e-06,1.7470000000000002e-06,1.7470000000000002e-06
+zmqstream.py,574,_handle_events,zmqstream.py,529,receiving,2,1.7050000000000002e-06,1.7050000000000002e-06,2.618e-06,2.618e-06
+zmqstream.py,654,_rebuild_io_state,zmqstream.py,529,receiving,2,9.130000000000001e-07,9.130000000000001e-07,2.618e-06,2.618e-06
+selectors.py,451,select,~,0,<method 'disable' of '_lsprof.Profiler' objects>,1,0.000192396,0.000192396,0.000192396,0.000192396
+session.py,687,serialize,session.py,672,sign,1,1.012e-06,3.0640000000000002e-06,1.012e-06,3.0640000000000002e-06
+session.py,643,msg_header,session.py,273,msg_header,1,4.377000000000001e-06,5.6111000000000005e-05,4.377000000000001e-06,5.6111000000000005e-05
+asyncio.py,210,call_at,ioloop.py,541,time,1,4.900000000000001e-07,1.12e-06,3.57e-06,5.394e-06
+ioloop.py,596,call_later,ioloop.py,541,time,1,3.08e-06,4.274e-06,3.57e-06,5.394e-06
+iostream.py,466,_schedule_in_thread,ioloop.py,596,call_later,1,5.213000000000001e-06,5.8151000000000006e-05,5.213000000000001e-06,5.8151000000000006e-05
+session.py,687,serialize,session.py,97,json_packer,4,1.0275e-05,0.00014943400000000002,1.0275e-05,0.00014943400000000002
+queue.py,97,empty,queue.py,209,_qsize,2,1.8450000000000001e-06,2.725e-06,1.8450000000000001e-06,2.725e-06
+~,0,<method 'run' of '_contextvars.Context' objects>,ioloop.py,742,_run_callback,1,5.8700000000000005e-06,0.00048361000000000004,5.8700000000000005e-06,0.00048361000000000004
+session.py,643,msg_header,session.py,599,msg_id,1,6.77e-06,1.1094e-05,6.77e-06,1.1094e-05
+session.py,646,msg,session.py,280,extract_header,1,4.7860000000000004e-06,4.96e-06,4.7860000000000004e-06,4.96e-06
+session.py,273,msg_header,session.py,201,utcnow,1,8.930000000000001e-06,4.8513e-05,8.930000000000001e-06,4.8513e-05
+session.py,646,msg,session.py,643,msg_header,1,4.272e-06,7.3928e-05,4.272e-06,7.3928e-05
+attrsettr.py,43,__getattr__,attrsettr.py,66,_get_attr_opt,4,9.175600000000001e-05,0.00010709900000000001,9.175600000000001e-05,0.00010709900000000001
+zmqstream.py,533,sending,queue.py,97,empty,2,1.2807000000000001e-05,1.6826e-05,1.2807000000000001e-05,1.6826e-05
+session.py,751,send,session.py,646,msg,1,9.479e-06,9.2842e-05,9.479e-06,9.2842e-05
+base_events.py,771,call_at,events.py,111,__init__,1,4.0540000000000005e-06,1.629e-05,4.0540000000000005e-06,1.629e-05
+threading.py,1222,is_alive,threading.py,601,is_set,1,2.4500000000000004e-07,2.4500000000000004e-07,2.4500000000000004e-07,2.4500000000000004e-07
+selectors.py,451,select,selectors.py,275,_key_from_fd,1,7.43e-07,7.43e-07,2.8620000000000003e-06,2.8620000000000003e-06
+base_events.py,771,call_at,base_events.py,543,_check_closed,1,2.68e-07,2.68e-07,2.68e-07,2.68e-07
+traitlets.py,731,_validate,traitlets.py,2373,validate,1,2.734e-06,4.15e-06,2.734e-06,4.15e-06
+selector_events.py,750,_process_events,base_events.py,1907,_add_callback,2,5.776e-06,7.545000000000001e-06,5.776e-06,7.545000000000001e-06
+session.py,687,serialize,traitlets.py,689,__get__,4,2.7270000000000003e-06,5.275e-06,1.2093000000000001e-05,2.5338e-05
+session.py,751,send,traitlets.py,689,__get__,5,3.4870000000000002e-06,7.944e-06,1.2093000000000001e-05,2.5338e-05
+session.py,672,sign,traitlets.py,689,__get__,1,1.0670000000000001e-06,2.052e-06,1.2093000000000001e-05,2.5338e-05
+session.py,599,msg_id,traitlets.py,689,__get__,1,1.981e-06,3.7490000000000004e-06,1.2093000000000001e-05,2.5338e-05
+session.py,643,msg_header,traitlets.py,689,__get__,2,1.159e-06,2.4510000000000003e-06,1.2093000000000001e-05,2.5338e-05
+session.py,646,msg,traitlets.py,689,__get__,1,1.672e-06,3.867e-06,1.2093000000000001e-05,2.5338e-05
+~,0,<built-in method time.sleep>,base_events.py,738,time,1,2.624e-06,5.577e-06,1.0145e-05,1.7465e-05
+base_events.py,1922,_run_once,base_events.py,738,time,2,1.5720000000000002e-06,2.678e-06,1.0145e-05,1.7465e-05
+base_events.py,747,call_later,base_events.py,738,time,1,8.11e-07,1.605e-06,1.0145e-05,1.7465e-05
+events.py,36,__init__,base_events.py,2017,get_debug,1,1.6200000000000002e-07,1.6200000000000002e-07,1.6200000000000002e-07,1.6200000000000002e-07
+asyncio.py,210,call_at,base_events.py,747,call_later,1,7.2050000000000005e-06,3.6601000000000004e-05,7.2050000000000005e-06,3.6601000000000004e-05
+__init__.py,183,dumps,encoder.py,183,encode,4,1.5239000000000001e-05,0.000116046,1.5239000000000001e-05,0.000116046
+iostream.py,495,_flush,traitlets.py,720,__set__,1,4.0830000000000005e-06,2.8555e-05,4.0830000000000005e-06,2.8555e-05
+typing.py,1221,__instancecheck__,typing.py,1492,__subclasscheck__,2,7.898000000000001e-06,2.869e-05,7.898000000000001e-06,2.869e-05
+events.py,111,__init__,events.py,36,__init__,1,1.0766e-05,1.2236000000000001e-05,1.0766e-05,1.2236000000000001e-05
+session.py,97,json_packer,__init__.py,183,dumps,4,1.6566e-05,0.000134871,1.6566e-05,0.000134871
+__init__.py,183,dumps,encoder.py,105,__init__,4,2.2590000000000003e-06,2.2590000000000003e-06,2.2590000000000003e-06,2.2590000000000003e-06
+traitlets.py,702,set,traitlets.py,731,_validate,1,6.2520000000000004e-06,1.8822e-05,6.2520000000000004e-06,1.8822e-05
+socket.py,780,recv_multipart,typing.py,2187,cast,2,3.47e-07,3.47e-07,5.43e-07,5.43e-07
+fermion.py,149,diagonalize_fermionic_hamiltonian,typing.py,2187,cast,1,1.96e-07,1.96e-07,5.43e-07,5.43e-07
+threading.py,1222,is_alive,threading.py,1155,_wait_for_tstate_lock,1,2.8680000000000003e-06,4.5060000000000006e-06,2.8680000000000003e-06,4.5060000000000006e-06
+socket.py,780,recv_multipart,typing.py,392,inner,6,3.2169e-05,4.7875000000000005e-05,3.2169e-05,4.7875000000000005e-05
+typing.py,392,inner,typing.py,1285,__hash__,4,1.3561000000000001e-05,1.5706000000000002e-05,1.3561000000000001e-05,1.5706000000000002e-05
+~,0,<built-in method builtins.isinstance>,typing.py,1221,__instancecheck__,2,8.064000000000001e-06,3.6754e-05,8.064000000000001e-06,3.6754e-05
+events.py,36,__init__,~,0,<built-in method _contextvars.copy_context>,1,1.308e-06,1.308e-06,1.308e-06,1.308e-06
+iostream.py,202,schedule,threading.py,1222,is_alive,1,4.768e-06,9.519e-06,4.768e-06,9.519e-06
+enum.py,1550,__or__,enum.py,1543,_get_value,24,2.1300000000000003e-05,3.2038e-05,3.8009e-05,6.073e-05
+enum.py,1561,__and__,enum.py,1543,_get_value,18,1.6709000000000002e-05,2.8692000000000002e-05,3.8009e-05,6.073e-05
+socket.py,709,send_multipart,enum.py,1550,__or__,6,2.3485000000000003e-05,6.1262e-05,3.0952000000000005e-05,7.762700000000001e-05
+zmqstream.py,654,_rebuild_io_state,enum.py,1550,__or__,2,7.467000000000001e-06,1.6365e-05,3.0952000000000005e-05,7.762700000000001e-05
+zmqstream.py,574,_handle_events,enum.py,1561,__and__,4,2.4345e-05,5.8223e-05,2.9654e-05,7.179300000000001e-05
+zmqstream.py,677,_update_handler,enum.py,1561,__and__,2,5.309e-06,1.357e-05,2.9654e-05,7.179300000000001e-05
+socket.py,780,recv_multipart,enum.py,720,__call__,2,2.1620000000000002e-06,3.937000000000001e-06,2.6943000000000003e-05,4.7364e-05
+attrsettr.py,66,_get_attr_opt,enum.py,720,__call__,4,9.613000000000001e-06,1.5343000000000002e-05,2.6943000000000003e-05,4.7364e-05
+enum.py,1550,__or__,enum.py,720,__call__,8,8.089e-06,1.4637e-05,2.6943000000000003e-05,4.7364e-05
+enum.py,1561,__and__,enum.py,720,__call__,6,7.079e-06,1.3447e-05,2.6943000000000003e-05,4.7364e-05

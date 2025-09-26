@@ -1,0 +1,350 @@
+filename,lineno,func,prim_calls,total_calls,tottime,cumtime
+~,0,<method 'set' of '_contextvars.ContextVar' objects>,16,16,5.6628e-05,5.6628e-05
+~,0,<method 'reset' of '_contextvars.ContextVar' objects>,16,16,4.0465e-05,4.0465e-05
+~,0,<method 'run' of '_contextvars.Context' objects>,3,3,1.2416000000000001e-05,0.0023385240000000002
+~,0,<method 'union' of 'set' objects>,15,15,0.000160218,0.000160218
+~,0,<method 'get' of 'dict' objects>,1581158,1581158,0.639804669,0.639804669
+~,0,<method 'items' of 'dict' objects>,3181132,3181132,0.917397933,0.917397933
+~,0,<method 'values' of 'dict' objects>,4,4,1.3263000000000002e-05,1.3263000000000002e-05
+~,0,<method 'update' of 'dict' objects>,109,109,0.000154985,0.000154985
+~,0,<method 'copy' of 'dict' objects>,1,1,3.7100000000000003e-07,3.7100000000000003e-07
+~,0,<method 'append' of 'list' objects>,657,657,0.000521918,0.000521918
+~,0,<method 'insert' of 'list' objects>,2,2,2.469e-06,2.469e-06
+~,0,<method 'extend' of 'list' objects>,2,2,7.39e-07,7.39e-07
+~,0,<method 'encode' of 'str' objects>,4,4,4.136e-06,4.136e-06
+~,0,<method 'replace' of 'str' objects>,2,2,2.211e-06,2.211e-06
+~,0,<method 'join' of 'str' objects>,400004,400004,4.2181061600000005,9.095232884000001
+~,0,<method 'upper' of 'str' objects>,4,4,3.101e-06,3.101e-06
+~,0,<method 'startswith' of 'str' objects>,195,195,0.000103097,0.000103097
+~,0,<method 'format' of 'str' objects>,46,46,3.2504e-05,3.2504e-05
+<frozen abc>,121,__subclasscheck__,2,2,4.847e-06,1.0061e-05
+<frozen abc>,117,__instancecheck__,110,110,0.004253159,0.004713589000000001
+<frozen importlib._bootstrap>,1390,_handle_fromlist,4,4,1.3744000000000001e-05,1.8222000000000003e-05
+~,0,<built-in method builtins.abs>,316,316,0.00148867,0.00148867
+~,0,<built-in method builtins.all>,109,109,0.000174227,0.000174227
+~,0,<built-in method builtins.any>,327,327,0.000590536,0.001161738
+~,0,<built-in method builtins.callable>,233,233,0.00016305400000000001,0.00016305400000000001
+~,0,<built-in method builtins.getattr>,2365494,2365494,2.013321395,2.013321395
+~,0,<built-in method builtins.hasattr>,70,70,6.7471e-05,6.7471e-05
+~,0,<built-in method builtins.hash>,4,4,1.9710000000000003e-06,1.9710000000000003e-06
+~,0,<built-in method builtins.isinstance>,2391636,2391640,0.670430788,0.6751743410000001
+~,0,<built-in method builtins.issubclass>,2371704,2371704,1.173337879,1.17334794
+~,0,<built-in method builtins.iter>,218,218,0.000132313,0.000132313
+~,0,<built-in method builtins.len>,1575184,1575184,0.432441811,0.432441811
+~,0,<built-in method builtins.locals>,1,1,3.0810000000000002e-06,3.0810000000000002e-06
+~,0,<built-in method builtins.max>,115,115,0.0006452830000000001,0.0006452830000000001
+~,0,<built-in method builtins.min>,115,115,0.001492578,0.001499288
+~,0,<built-in method builtins.round>,790504,790504,2.201623849,2.201623849
+~,0,<built-in method builtins.sorted>,122,122,0.027794469000000002,0.027794469000000002
+~,0,<built-in method builtins.sum>,15,15,1.9544e-05,1.9544e-05
+~,0,<method '__exit__' of '_thread.RLock' objects>,1,1,1.233e-06,1.233e-06
+~,0,<method 'acquire' of '_thread.lock' objects>,1,1,1.2310000000000002e-06,1.2310000000000002e-06
+~,0,<method '__exit__' of '_thread.lock' objects>,2,2,1.661e-06,1.661e-06
+~,0,<method 'close' of '_io.StringIO' objects>,1,1,4.6200000000000003e-07,4.6200000000000003e-07
+~,0,<method 'getvalue' of '_io.StringIO' objects>,1,1,1.4840000000000001e-06,1.4840000000000001e-06
+~,0,<built-in method time.time>,2,2,1.5350000000000001e-06,1.5350000000000001e-06
+~,0,<built-in method time.sleep>,645,645,383.24898450200004,647.311783268
+~,0,<built-in method time.monotonic>,5,5,6.056e-06,6.056e-06
+~,0,<built-in method time.process_time>,139,139,0.0028083720000000004,0.0028083720000000004
+~,0,<built-in method time.perf_counter>,139,139,0.000149547,0.000149547
+~,0,<built-in method posix.getpid>,4,4,5.129e-06,5.129e-06
+~,0,<built-in method posix.getppid>,646,646,0.002532171,0.002532171
+~,0,<built-in method _abc._abc_instancecheck>,110,110,0.00046043,0.00046043
+~,0,<built-in method _abc._abc_subclasscheck>,2,2,5.214e-06,5.214e-06
+~,0,<method 'append' of 'collections.deque' objects>,4,4,3.6220000000000002e-06,3.6220000000000002e-06
+~,0,<method 'popleft' of 'collections.deque' objects>,5,5,2.837e-06,2.837e-06
+~,0,<built-in method _operator.index>,34,34,1.8157000000000003e-05,1.8157000000000003e-05
+~,0,<built-in method utcnow>,1,1,2.9786000000000002e-05,2.9786000000000002e-05
+~,0,<method 'isoformat' of 'datetime.datetime' objects>,2,2,1.8847e-05,1.8847e-05
+~,0,<method 'replace' of 'datetime.datetime' objects>,1,1,6.305000000000001e-06,6.305000000000001e-06
+~,0,<built-in method math.ceil>,1,1,1.546e-06,1.546e-06
+~,0,<built-in method _heapq.heappush>,1,1,9.05e-07,9.05e-07
+~,0,<built-in method _heapq.heappop>,1,1,8.73e-07,8.73e-07
+~,0,<method 'poll' of 'select.epoll' objects>,2,2,3.9154000000000005e-05,3.9154000000000005e-05
+enum.py,1128,__new__,20,20,1.9421000000000003e-05,1.9421000000000003e-05
+traitlets.py,2336,_validate_bounds,1,1,4.71e-07,4.71e-07
+typing.py,1770,_no_init_or_replace_init,1,1,2.091e-06,2.091e-06
+encoder.py,205,iterencode,4,4,3.9601e-05,7.146500000000001e-05
+selectors.py,451,select,3,3,0.49025475700000004,647.437550988
+traitlets.py,702,set,1,1,4.664000000000001e-06,2.3113e-05
+base_events.py,771,call_at,1,1,9.03e-06,2.6119000000000002e-05
+traitlets.py,651,get,14,14,1.0232000000000001e-05,1.0232000000000001e-05
+traitlets.py,740,_cross_validate,1,1,5.422e-06,7.25e-06
+base_events.py,1922,_run_once,3,3,0.008809324,647.4497233540001
+events.py,86,_run,3,3,1.8015e-05,0.002356539
+selector_events.py,750,_process_events,3,3,1.1954000000000001e-05,2.1101e-05
+attrsettr.py,43,__getattr__,4,4,4.9043000000000005e-05,0.000174897
+socket.py,632,send,8,8,0.000996838,0.0011467480000000002
+socket.py,709,send_multipart,1,1,2.9571000000000002e-05,0.001191893
+socket.py,780,recv_multipart,2,2,7.2854e-05,0.00012301100000000002
+session.py,687,serialize,1,1,1.4167e-05,0.000145975
+session.py,751,send,1,1,2.6725000000000002e-05,0.00035529100000000004
+zmqstream.py,574,_handle_events,2,2,3.1647000000000004e-05,0.0018809380000000002
+jsonutil.py,108,json_default,2,2,8.922e-06,3.1864000000000005e-05
+zmqstream.py,615,_handle_recv,2,2,1.2707e-05,0.001518161
+iostream.py,495,_flush,1,1,2.1762000000000003e-05,0.000432263
+iostream.py,90,_event_pipe,1,1,2.657e-06,2.657e-06
+numeric.py,460,count_nonzero,790516,790516,0.49425422500000005,0.854673564
+numeric.py,1373,normalize_axis_tuple,4,4,4.4343000000000006e-05,5.2532000000000005e-05
+_internal.py,448,_promote_fields,1,1,0.00010337200000000001,0.00013379
+fromnumeric.py,69,_wrapreduction,3181038,3181038,7.376737481,21.647988035
+numeric.py,1437,moveaxis,2,2,3.529e-05,0.000104307
+_ufunc_config.py,410,__enter__,15,15,7.7749e-05,0.00018796900000000002
+_ufunc_config.py,434,inner,1,1,4.7281000000000004e-05,5.3402e-05
+getlimits.py,487,__new__,1581032,1581032,0.9896617780000001,1.628911773
+einsumfunc.py,1057,einsum,402,402,0.001664773,0.213024596
+_internal.py,261,__init__,3887,3887,0.008205190000000001,0.008225444
+_linalg.py,148,_commonType,15,15,0.00012203600000000001,0.000196793
+_function_base_impl.py,249,flip,4,4,3.9708e-05,5.1713000000000004e-05
+_stride_tricks_impl.py,349,_broadcast_to,218,218,0.005290406,0.007316225000000001
+_arraysetops_impl.py,144,unique,1573491,1573491,3.7909068250000004,30.462550012
+_arraysetops_impl.py,342,_unique1d,1573491,1573491,17.064253504,25.042597599
+_function_base_impl.py,1324,diff,31,31,0.0005754740000000001,0.0006194260000000001
+numpy_helper.py,574,transpose,233,233,0.5860565550000001,0.591163658
+linalg_helper.py,166,_fill_heff_hermitian,109,109,0.7238337,0.7303009730000001
+numpy_helper.py,256,pack_tril,15,15,0.015327387000000001,0.015656261
+linalg_helper.py,1409,_qr,15,15,0.043370416,0.052445117000000006
+misc.py,702,check_sanity,15,15,0.000262267,0.000365364
+numpy_helper.py,478,take_2d,109,109,0.252840467,0.260458142
+linalg_helper.py,1466,_sort_elast,94,94,0.006647839,0.010688439000000001
+linalg_helper.py,1490,_normalize_xt_,97,97,0.6804265220000001,0.68364502
+_util.py,410,_asarray_validated,109,109,0.00181692,0.016227281
+linalg_helper.py,291,davidson1,15,15,0.482092334,317.43435559600005
+linalg_helper.py,1432,_outprod_to_subspace,218,218,0.8716651470000001,1.063230142
+lapack.py,1059,_check_work_float,218,218,0.001147706,0.001147706
+_util.py,1203,wrapper,109,109,0.003572879,0.043894499000000003
+_decomp.py,284,eigh,109,109,0.014783699,0.039969158000000005
+addons.py,190,_convert,139,139,0.033404657000000004,0.043739232
+addons.py,60,restore,278,278,0.004638892,0.05193151
+rdm.py,123,make_rdm12_spin1,15,15,6.885738049,6.885822705000001
+selected_ci.py,175,cre_des_linkstr,120,120,0.25779761,0.274121487
+rdm.py,91,make_rdm1_spin1,60,60,0.622011043,0.624730499
+direct_spin1.py,178,absorb_h1e,15,15,0.006170238000000001,0.018268156
+cistring.py,113,_strs2occslst,30,30,0.004977441,0.005548834000000001
+direct_spin1.py,549,_get_init_guess,15,15,0.001682151,0.042436421
+direct_spin1.py,847,__init__,15,15,7.5318e-05,7.5318e-05
+selected_ci.py,194,des_des_linkstr,60,60,0.20339641,0.257783613
+selected_ci.py,48,contract_2e,109,109,50.482976282,50.492866115000005
+selected_ci.py,289,make_hdiag,15,15,0.22841538800000002,0.23636013300000003
+selected_ci.py,313,kernel_fixed_space,15,15,0.0016729140000000002,317.96603646600005
+selected_ci.py,519,make_rdm2s,15,15,6.3273942530000005,6.347117616
+bit_array.py,67,__init__,1,1,1.9106e-05,2.2972000000000003e-05
+subsampling.py,96,postselect_by_hamming_right_and_left,1,1,0.000550737,0.008777311000000001
+ipython-input-3795278461.py,92,work_fn,1,1,0.0027156000000000003,646.9426091380001
+fermion.py,476,solve_sci,15,15,0.002125099,448.874932407
+fermion.py,66,__post_init__,15,15,0.000146493,0.000211363
+subsampling.py,147,subsample,5,5,0.013649364,0.023379672
+configuration_recovery.py,59,recover_configurations,4,4,1.3117656,2.0087167960000003
+fermion.py,149,diagonalize_fermionic_hamiltonian,1,1,0.036517003,646.9398705660001
+configuration_recovery.py,181,_bipartite_bitstring_correcting,400000,400000,87.781894706,181.407573278
+fermion.py,377,<lambda>,15,15,6.71e-06,6.71e-06
+configuration_recovery.py,162,_p_flip_1_to_0,7963844,7963844,4.885852445,9.383627636
+<string>,2,__init__,15,15,0.000187629,0.00039899200000000003
+fermion.py,428,_unique_with_order_preserved,20,20,0.00011780900000000001,0.001342047
+configuration_recovery.py,131,_p_flip_0_to_1,18400000,18400000,8.686368633,8.686368633
+counts.py,45,bit_array_to_arrays,1,1,0.00020390000000000002,0.035232041000000006
+counts.py,186,bitstring_matrix_to_integers,30,30,0.0027267320000000004,0.002809413
+fermion.py,435,solve_sci_batch,5,5,0.00033012600000000003,448.875262533
+bit_array.py,157,num_shots,1,1,3.2920000000000004e-06,3.2920000000000004e-06
+bit_array.py,144,array,1,1,8.140000000000001e-07,8.140000000000001e-07
+bit_array.py,37,_min_num_bytes,1,1,1.4790000000000002e-06,1.4790000000000002e-06
+bit_array.py,149,num_bits,1,1,1.872e-06,1.872e-06
+addons.py,822,_unpack_nelec,274,274,0.00058898,0.000918636
+selected_ci.py,769,get_init_guess,15,15,0.000183286,0.042820063000000005
+selected_ci.py,903,_all_linkstr_index,15,15,0.000166152,0.16767869300000002
+addons.py,206,_stand_sym_code,278,278,0.0021415740000000003,0.002351783
+direct_spin1.py,920,eig,15,15,0.055285854,317.48966022
+selected_ci.py,568,make_rdm2,15,15,0.047819779,130.04961429300002
+selected_ci.py,346,hop,109,109,0.002568452,314.205357599
+selected_ci.py,812,make_rdm1s,30,30,0.00039815300000000005,0.841781748
+selected_ci.py,830,make_rdm2,15,15,0.00024788800000000004,130.049989168
+selected_ci.py,758,contract_2e,109,109,0.006039038,314.198436596
+logger.py,142,debug,124,124,0.00018608600000000002,0.00018608600000000002
+logger.py,146,debug1,33,33,1.7788e-05,1.7788e-05
+logger.py,182,timer_debug1,109,109,0.0012795010000000002,0.002356875
+logger.py,200,__init__,15,15,4.4461e-05,0.000211177
+_sparse.py,10,issparse,109,109,0.00023712800000000002,0.007569244
+configuration_recovery.py,122,<genexpr>,18800000,18800000,4.877126724,4.877126724
+__init__.py,96,_xla_gc_callback,1104,1104,0.003151624,0.003151624
+direct_spin1.py,926,<lambda>,109,109,0.001122821,314.20648042
+selected_ci.py,926,_as_SCIvector,248,248,0.000594971,0.0037709320000000003
+selected_ci.py,931,_as_SCIvector_if_not,45,45,5.7481e-05,9.996600000000001e-05
+selected_ci.py,893,_unpack,184,184,0.000943152,0.0017687
+selected_ci.py,484,make_rdm1s,30,30,0.000697827,0.8412438950000001
+selected_ci.py,189,cre_des_linkstr_tril,30,30,8.9639e-05,0.057849837
+selected_ci.py,230,des_des_linkstr_tril,30,30,0.000157743,0.10966270400000001
+selected_ci.py,350,<lambda>,94,94,0.133764096,0.133764096
+selected_ci.py,739,__init__,15,15,6.7459e-05,0.00014277700000000002
+selected_ci.py,818,make_rdm1,15,15,0.000456333,0.417203551
+selected_ci.py,914,__array_finalize__,481,481,0.001852209,0.002306953
+_misc.py,181,_datacopied,109,109,5.3149e-05,5.3149e-05
+lapack.py,1055,<genexpr>,327,327,0.0005461530000000001,0.001693859
+logger.py,219,new_logger,15,15,0.000118256,0.00035585600000000004
+blas.py,395,getter,109,109,0.000710669,0.001245681
+lapack.py,1025,_compute_lwork,109,109,0.004742443000000001,0.006959423
+misc.py,677,check_sanity,15,15,0.000280525,0.000864906
+core.py,6607,isMaskedArray,109,109,0.00017055500000000002,0.00022417000000000002
+asyncio.py,200,_handle_events,2,2,6.324000000000001e-06,0.001887262
+asyncio.py,210,call_at,1,1,2.1416000000000003e-05,5.666e-05
+_twodim_base_impl.py,968,<genexpr>,327,327,0.004112867,0.012025452
+_linalg.py,493,inv,15,15,0.0008314,0.001517656
+_function_base_impl.py,343,iterable,218,218,0.000269945,0.000402258
+_function_base_impl.py,245,_flip_dispatcher,4,4,9.02e-07,9.02e-07
+_function_base_impl.py,1320,_diff_dispatcher,31,31,1.0065000000000001e-05,1.0065000000000001e-05
+_arraysetops_impl.py,139,_unique_dispatcher,1573491,1573491,0.349560076,0.349560076
+fromnumeric.py,1959,nonzero,31,31,3.8628000000000004e-05,0.00033851700000000004
+fromnumeric.py,824,_argpartition_dispatcher,15,15,1.8641e-05,1.8641e-05
+fromnumeric.py,1081,_argsort_dispatcher,25,25,6.785e-06,6.785e-06
+fromnumeric.py,1204,_argmax_dispatcher,203,203,7.815900000000001e-05,7.815900000000001e-05
+fromnumeric.py,1398,_searchsorted_dispatcher,5,5,3.3920000000000003e-06,3.3920000000000003e-06
+fromnumeric.py,1635,_diagonal_dispatcher,30,30,1.2501000000000001e-05,1.2501000000000001e-05
+fromnumeric.py,1955,_nonzero_dispatcher,31,31,7.119000000000001e-06,7.119000000000001e-06
+fromnumeric.py,2250,_sum_dispatcher,2390521,2390521,0.49091018500000005,0.49091018500000005
+fromnumeric.py,2395,_any_dispatcher,94,94,2.657e-05,2.657e-05
+fromnumeric.py,2605,_cumsum_dispatcher,1573428,1573428,0.380517784,0.380517784
+fromnumeric.py,3063,_prod_dispatcher,790517,790517,0.21902375400000001,0.21902375400000001
+einsumfunc.py,1049,_einsum_dispatcher,1856,1856,0.0016792,0.0016792
+_stride_tricks_impl.py,354,<genexpr>,654,654,0.000555183,0.000571202
+_index_tricks_impl.py,778,__getitem__,4,4,1.901e-06,1.901e-06
+_linalg.py,123,_makearray,15,15,6.7533e-05,9.2361e-05
+_internal.py,537,_view_is_safe,2,2,1.1026e-05,1.1026e-05
+_type_check_impl.py,265,iscomplexobj,109,109,0.000306128,0.00037244700000000003
+_type_check_impl.py,168,_is_type_dispatcher,109,109,3.0486000000000003e-05,3.0486000000000003e-05
+_stride_tricks_impl.py,30,_maybe_view_as_subclass,218,218,0.000207357,0.000207357
+_arraysetops_impl.py,327,reshape_uniq,1,1,1.3049000000000002e-05,7.554500000000001e-05
+_stride_tricks_impl.py,376,broadcast_to,218,218,0.000539209,0.007855434
+_function_base_impl.py,584,asarray_chkfinite,109,109,0.003910467,0.006616947000000001
+_twodim_base_impl.py,34,_min_int,218,218,0.000567216,0.001177358
+_stride_tricks_impl.py,372,_broadcast_to_dispatcher,218,218,5.7151e-05,5.7151e-05
+_linalg.py,489,_unary_dispatcher,15,15,8.815000000000001e-06,8.815000000000001e-06
+_arraysetops_impl.py,131,_unpack_tuple,1573491,1573491,0.8320759350000001,1.263446456
+_linalg.py,128,isComplexType,30,30,1.8259000000000003e-05,2.6154e-05
+_linalg.py,142,_realType,15,15,3.0892e-05,4.8888000000000004e-05
+_linalg.py,192,_assert_stacked_2d,15,15,3.1668e-05,3.1668e-05
+_linalg.py,198,_assert_stacked_square,15,15,2.7836000000000003e-05,2.7836000000000003e-05
+numeric.py,1736,indices,109,109,0.0016065270000000002,0.002951361
+fromnumeric.py,2255,sum,2390521,2390521,3.9779846880000003,18.624731509
+numerictypes.py,288,issubclass_,1581032,1581032,1.284918462,2.3168945880000003
+~,0,<method 'conj' of 'numpy.generic' objects>,399,399,0.0039034610000000004,0.0039034610000000004
+~,0,<method '__array_wrap__' of 'numpy.ndarray' objects>,15,15,1.4035e-05,1.4035e-05
+~,0,<method 'all' of 'numpy.ndarray' objects>,109,109,0.000461326,0.002536964
+~,0,<method 'argmax' of 'numpy.ndarray' objects>,203,203,0.000930906,0.000930906
+~,0,<method 'argpartition' of 'numpy.ndarray' objects>,15,15,0.015307183,0.015307183
+~,0,<method 'argsort' of 'numpy.ndarray' objects>,1573473,1573473,3.7283713740000004,3.7283713740000004
+~,0,<method 'astype' of 'numpy.ndarray' objects>,138,138,0.003225533,0.003225533
+~,0,<method 'conj' of 'numpy.ndarray' objects>,1313,1313,0.0023173720000000003,0.0023173720000000003
+~,0,<method 'copy' of 'numpy.ndarray' objects>,400015,400015,0.513232046,0.513232046
+~,0,<method 'cumsum' of 'numpy.ndarray' objects>,1573428,1573428,6.161510323000001,6.161510323000001
+~,0,<method 'diagonal' of 'numpy.ndarray' objects>,30,30,0.00015259800000000002,0.00015259800000000002
+~,0,<method 'flatten' of 'numpy.ndarray' objects>,1573495,1573495,1.686327358,1.686327358
+~,0,<method 'nonzero' of 'numpy.ndarray' objects>,31,31,0.000218569,0.000218569
+~,0,<method 'ravel' of 'numpy.ndarray' objects>,15,15,3.0575000000000005e-05,3.0575000000000005e-05
+~,0,<method 'reshape' of 'numpy.ndarray' objects>,905,905,0.004759803,0.005670713
+~,0,<method 'searchsorted' of 'numpy.ndarray' objects>,5,5,0.00011608000000000001,0.00011608000000000001
+~,0,<method 'sort' of 'numpy.ndarray' objects>,93,93,0.47203042500000003,0.47203042500000003
+~,0,<method 'transpose' of 'numpy.ndarray' objects>,235,235,0.0005218660000000001,0.0005218660000000001
+~,0,<method 'view' of 'numpy.ndarray' objects>,295,295,0.001954572,0.0033616410000000003
+~,0,<built-in method numpy.array>,264,264,1.641788078,1.641788078
+~,0,<built-in method numpy.asarray>,3725,3725,0.018365199000000002,0.018365199000000002
+~,0,<built-in method numpy.asanyarray>,3147043,3147043,0.6250896770000001,0.6250896770000001
+~,0,<built-in method numpy.ascontiguousarray>,1,1,0.004290167,0.004290167
+~,0,<built-in method numpy.arange>,449,449,0.0033518830000000004,0.0033518830000000004
+~,0,<built-in method numpy.zeros>,800612,800612,0.637599706,0.637599706
+~,0,<built-in method numpy._core._multiarray_umath.count_nonzero>,790516,790516,0.360419339,0.360419339
+~,0,<built-in method numpy.empty>,1573870,1573870,2.3890701350000003,2.3890701350000003
+~,0,<built-in method numpy._core._multiarray_umath.c_einsum>,402,402,0.211359823,0.211359823
+~,0,<built-in method numpy.promote_types>,46,46,1.0768000000000001e-05,1.0768000000000001e-05
+~,0,<built-in method numpy.lib.array_utils.normalize_axis_index>,35,35,1.7446000000000002e-05,1.7446000000000002e-05
+~,0,<built-in method numpy._core._multiarray_umath._make_extobj>,16,16,5.8420000000000006e-05,5.8420000000000006e-05
+~,0,<method '__exit__' of 'numpy.nditer' objects>,218,218,0.000158882,0.000158882
+~,0,<method 'reduce' of 'numpy.ufunc' objects>,3181241,3181241,11.814563168000001,11.814563168000001
+~,0,<method 'outer' of 'numpy.ufunc' objects>,109,109,0.002592053,0.002592053
+getlimits.py,699,min,218,218,0.000224312,0.000224312
+multiarray.py,361,where,790534,790534,0.213852175,0.213852175
+fromnumeric.py,1208,argmax,203,203,0.0015740530000000002,0.003394212
+_methods.py,67,_all,109,109,0.000186409,0.0020756380000000003
+numerictypes.py,470,issubdtype,790516,790516,1.819802917,4.277967061
+fromnumeric.py,1639,diagonal,30,30,0.00016433000000000002,0.000368542
+multiarray.py,161,concatenate,87,87,1.8743e-05,1.8743e-05
+fromnumeric.py,2400,any,94,94,0.00034261700000000003,0.0019477670000000002
+fromnumeric.py,3068,prod,790517,790517,1.2685590580000001,8.936791296
+_ufunc_config.py,426,__exit__,15,15,2.5371e-05,6.454300000000001e-05
+fromnumeric.py,828,argpartition,15,15,9.3299e-05,0.015542857
+fromnumeric.py,1085,argsort,25,25,7.9502e-05,0.06362216
+fromnumeric.py,1402,searchsorted,5,5,1.564e-05,0.00016909500000000002
+fromnumeric.py,2609,cumsum,1573428,1573428,1.9210441390000002,10.280732975000001
+multiarray.py,678,result_type,15,15,3.802e-06,3.802e-06
+multiarray.py,750,dot,1313,1313,0.000675104,0.000675104
+multiarray.py,1185,packbits,1,1,2.44e-07,2.44e-07
+multiarray.py,1243,unpackbits,1,1,1.9e-07,1.9e-07
+numeric.py,456,_count_nonzero_dispatcher,790516,790516,0.177488323,0.177488323
+numeric.py,1433,_moveaxis_dispatcher,2,2,4.1700000000000004e-07,4.1700000000000004e-07
+_ufunc_config.py,400,__init__,15,15,1.0139e-05,1.0139e-05
+_twodim_base_impl.py,371,tri,109,109,0.002128553,0.00801611
+_twodim_base_impl.py,159,eye,15,15,0.00058066,0.000675061
+fromnumeric.py,89,_wrapreduction_any_all,94,94,0.00055237,0.00160515
+getlimits.py,712,max,218,218,0.00038583000000000004,0.00038583000000000004
+fromnumeric.py,51,_wrapfunc,1573707,1573707,1.732426143,8.440954555000001
+_internal.py,278,data_as,3887,3887,0.006174160000000001,0.030738651000000002
+_twodim_base_impl.py,888,tril_indices,109,109,0.001992432,0.024985355
+__init__.py,517,cast,3887,3887,0.024501896000000002,0.024564491
+iostream.py,584,_rotate_buffer,1,1,1.5197e-05,1.643e-05
+iostream.py,165,_check_mp_mode,1,1,2.057e-06,4.8660000000000005e-06
+iostream.py,162,_is_master_process,1,1,1.5410000000000002e-06,2.809e-06
+iostream.py,219,<lambda>,1,1,6.241e-06,0.001219178
+iostream.py,214,send_multipart,1,1,4.12e-06,7.579300000000001e-05
+iostream.py,466,_schedule_in_thread,1,1,5.363e-06,7.1692e-05
+iostream.py,577,_flush_buffer,1,1,6.916e-06,2.5292e-05
+iostream.py,198,closed,1,1,4.79e-07,4.79e-07
+iostream.py,202,schedule,1,1,1.1008e-05,7.1673e-05
+iostream.py,221,_really_send,1,1,1.5699e-05,0.001212937
+zmqstream.py,533,sending,2,2,3.8110000000000004e-06,2.2333e-05
+zmqstream.py,547,_run_callback,2,2,3.1310000000000003e-05,0.0013824430000000001
+zmqstream.py,654,_rebuild_io_state,2,2,1.5347e-05,0.000134375
+iostream.py,107,_handle_event,2,2,1.5464e-05,0.0013080580000000002
+zmqstream.py,677,_update_handler,2,2,6.339000000000001e-06,7.787e-05
+jsonutil.py,39,_ensure_tzinfo,2,2,1.54e-06,1.54e-06
+zmqstream.py,529,receiving,4,4,2.093e-06,2.093e-06
+~,0,<method 'disable' of '_lsprof.Profiler' objects>,1,1,0.00013633000000000002,0.00013633000000000002
+session.py,672,sign,1,1,1.4310000000000001e-06,2.6650000000000003e-06
+session.py,273,msg_header,1,1,4.932e-06,5.2479000000000004e-05
+ioloop.py,541,time,2,2,3.8280000000000004e-06,5.363e-06
+ioloop.py,596,call_later,1,1,5.387e-06,6.632900000000001e-05
+session.py,97,json_packer,4,4,9.711e-06,0.000120941
+queue.py,209,_qsize,2,2,2.465e-06,3.452e-06
+ioloop.py,742,_run_callback,1,1,6.583e-06,0.000438846
+session.py,599,msg_id,1,1,9.243000000000001e-06,1.4806e-05
+session.py,280,extract_header,1,1,5.468e-06,5.6390000000000006e-06
+session.py,201,utcnow,1,1,8.375e-06,4.4466000000000004e-05
+session.py,643,msg_header,1,1,5.8580000000000005e-06,7.609600000000001e-05
+attrsettr.py,66,_get_attr_opt,4,4,8.211000000000001e-05,9.618800000000001e-05
+queue.py,97,empty,2,2,1.3409000000000002e-05,1.8522e-05
+session.py,646,msg,1,1,9.418e-06,9.489200000000001e-05
+events.py,111,__init__,1,1,4.666e-06,1.5918000000000002e-05
+threading.py,601,is_set,1,1,3.5700000000000003e-07,3.5700000000000003e-07
+selectors.py,275,_key_from_fd,2,2,3.1380000000000003e-06,3.1380000000000003e-06
+base_events.py,543,_check_closed,1,1,2.66e-07,2.66e-07
+traitlets.py,2373,validate,1,1,3.0020000000000002e-06,3.961e-06
+base_events.py,1907,_add_callback,2,2,7.216e-06,9.147e-06
+traitlets.py,689,__get__,14,14,1.2811000000000002e-05,2.3043000000000003e-05
+base_events.py,738,time,5,5,1.0214e-05,1.6270000000000002e-05
+base_events.py,2017,get_debug,1,1,1.42e-07,1.42e-07
+base_events.py,747,call_later,1,1,4.39e-06,3.1887e-05
+encoder.py,183,encode,4,4,1.3490000000000001e-05,8.9268e-05
+traitlets.py,720,__set__,1,1,4.454e-06,2.7567000000000002e-05
+typing.py,1492,__subclasscheck__,2,2,8.172e-06,2.8472e-05
+events.py,36,__init__,1,1,9.13e-06,1.1252e-05
+__init__.py,183,dumps,4,4,1.6017000000000003e-05,0.000107094
+encoder.py,105,__init__,4,4,1.8090000000000002e-06,1.8090000000000002e-06
+traitlets.py,731,_validate,1,1,6.275e-06,1.8449000000000002e-05
+typing.py,2187,cast,3,3,6.970000000000001e-07,6.970000000000001e-07
+threading.py,1155,_wait_for_tstate_lock,1,1,3.2230000000000003e-06,4.454e-06
+typing.py,392,inner,6,6,3.0881000000000005e-05,4.587e-05
+typing.py,1285,__hash__,4,4,1.3018000000000001e-05,1.4989000000000002e-05
+typing.py,1221,__instancecheck__,2,2,8.558e-06,3.703e-05
+~,0,<built-in method _contextvars.copy_context>,1,1,1.98e-06,1.98e-06
+threading.py,1222,is_alive,1,1,5.631e-06,1.0442000000000001e-05
+enum.py,1543,_get_value,42,42,4.5286e-05,6.8644e-05
+enum.py,1550,__or__,8,8,2.9001000000000002e-05,7.9404e-05
+enum.py,1561,__and__,6,6,4.7613e-05,9.217200000000001e-05
+enum.py,720,__call__,20,20,2.4776e-05,4.4197000000000004e-05
