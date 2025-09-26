@@ -59,6 +59,52 @@
   - Document the `backend` argument; keep default as Python.  
   - This ensures contributions remain PR-friendly if we decide to upstream later.
 
+
+# Rough Speedup Estimates (according to chatGPT)
+
+## Per-kernel (micro) speedups
+Assuming: Rust (pyo3) + `ndarray` + Rayon, C-contiguous NumPy inputs, 8–16 cores.
+
+| Kernel / Area                                 | Why it speeds up                                | Kernel speedup |
+|---                                            |---                                               |---|
+| `_bipartite_bitstring_correcting`             | tight Python loops → SIMD + threads              | **10–40×**     |
+| `configuration_recovery` (wrapper + loops)    | avoid Python round-trips; fuse passes            | **4–12×**      |
+| `selected_ci.hop` + `gen_map`                 | fuse gen/dedupe/sort; radix/hash unique          | **3–10×**      |
+| `selected_ci.mk_rdm2`                         | fused accumulations; threaded reduction          | **2–8×**       |
+| `selected_ci.contract_ss`                     | tighter integer-indexed contraction              | **1.5–4×**     |
+| NumPy helpers (`take_2d`, `unique`, `argsort`) | cut Python dispatch; batch/gather in one pass    | **2–5×**       |
+
+> Notes: you likely won’t beat MKL/BLAS on dense 2e **math** itself (`contract_2e`), but you can win by **fusing** small ops and reducing temporaries/dispatch.
+
+## End-to-end impact (Amdahl quick math)
+Let `p` be fraction of time in a given hotspot; speedup = `1 / ((1-p) + p/S)`.
+
+Using numbers that look like your runs:
+
+- `_bipartite_bitstring_correcting` ~ **5%** of total wall time → 20× kernel ⇒ **~1.09×** overall.
+- `hop + gen_map + uniques` ~ **20–30%** → 5× kernel ⇒ **~1.3–1.5×** overall.
+- `mk_rdm2` ~ **15%** → 4× kernel ⇒ **~1.2×** overall.
+- `configuration_recovery` (Python path) **5–10%** → 8× kernel ⇒ **~1.1×** overall.
+
+Stacking realistic wins (independent hotspots):
+- **Conservative**: 1.15–1.4× end-to-end.  
+- **Realistic** (hop/gen_map + mk_rdm2 + recovery): **~1.5–2.5×** end-to-end.  
+- **Aggressive** (plus well-fused helpers; good threading): **~2.5–3.5×** end-to-end.
+
+## Where the big levers are
+- **First**: `hop + gen_map` (highest % + good kernel speedup).  
+- **Second**: `mk_rdm2` (heavy but very parallelizable).  
+- **Third**: `_bipartite_bitstring_correcting` + `configuration_recovery` (cheap to port, nice cumulative win).  
+- **Helpers**: replacing `unique/argsort/take/takebak` with fused Rust paths often unlocks an extra **~1.2–1.5×** on top by shaving millions of tiny calls.
+
+## Guardrails for hitting the upper end
+- Release the GIL and use Rayon; set `RAYON_NUM_THREADS` to match cores and avoid fighting MKL/OMP threads.  
+- Keep arrays C-contiguous; avoid dtype conversions.  
+- Fuse operations to reduce Python↔C crossings and temporaries.  
+- Add small unit tests to keep exactness (or statistical equivalence if RNG).
+
+> TL;DR: a **2×** overall speedup is very attainable with the first two targets; **~3×** is plausible if we also replace the high-frequency helpers and keep memory traffic tight.
+
 # Notes
 ## Preliminary profiling on $N_2$.
 
